@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/esp32_sim.iml" filepath="$PROJECT_DIR$/.idea/esp32_sim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mqtt_broker_docker/mqtt_broker_docker.iml" filepath="$PROJECT_DIR$/mqtt_broker_docker/mqtt_broker_docker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mqtt_esp32_simulator/mqtt_esp32_simulator.iml" filepath="$PROJECT_DIR$/mqtt_esp32_simulator/mqtt_esp32_simulator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mqtt_flutter_app/mqtt_flutter_app.iml" filepath="$PROJECT_DIR$/mqtt_flutter_app/mqtt_flutter_app.iml" />
+    </modules>
+  </component>
+</project>

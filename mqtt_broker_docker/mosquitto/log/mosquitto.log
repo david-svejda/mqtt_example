@@ -1,0 +1,1550 @@
+1772001897: mosquitto version 2.1.2 starting
+1772001897: Config loaded from /mosquitto/config/mosquitto.conf.
+1772001897: Bridge support available.
+1772001897: Persistence support available.
+1772001897: TLS support available.
+1772001897: TLS-PSK support available.
+1772001897: Websockets support available.
+1772001897: Opening ipv4 listen socket on port 1883.
+1772001897: Opening ipv6 listen socket on port 1883.
+1772001897: mosquitto version 2.1.2 running
+1772002264: New connection from 172.19.0.1:43066 on port 1883.
+1772002264: New connection from 172.19.0.1:43036 on port 1883.
+1772002264: New connection from 172.19.0.1:43060 on port 1883.
+1772002264: New connection from 172.19.0.1:43044 on port 1883.
+1772002264: New connection from 172.19.0.1:43028 on port 1883.
+1772002264: New client connected from 172.19.0.1:43066 as sim_device_1 (p4, c1, k60).
+1772002264: New client connected from 172.19.0.1:43036 as sim_device_3 (p4, c1, k60).
+1772002264: New client connected from 172.19.0.1:43060 as sim_device_2 (p4, c1, k60).
+1772002264: New client connected from 172.19.0.1:43044 as sim_device_5 (p4, c1, k60).
+1772002264: New client connected from 172.19.0.1:43028 as sim_device_4 (p4, c1, k60).
+1772002407: Client sim_device_1 [172.19.0.1:43066] disconnected: connection closed by client.
+1772002407: Client sim_device_2 [172.19.0.1:43060] disconnected: connection closed by client.
+1772002407: Client sim_device_3 [172.19.0.1:43036] disconnected: connection closed by client.
+1772002407: Client sim_device_5 [172.19.0.1:43044] disconnected: connection closed by client.
+1772002407: Client sim_device_4 [172.19.0.1:43028] disconnected: connection closed by client.
+1772002559: New connection from 172.19.0.1:43706 on port 1883.
+1772002559: New connection from 172.19.0.1:43708 on port 1883.
+1772002559: New connection from 172.19.0.1:43726 on port 1883.
+1772002559: New connection from 172.19.0.1:43730 on port 1883.
+1772002559: New connection from 172.19.0.1:43732 on port 1883.
+1772002559: New client connected from 172.19.0.1:43706 as sim_device_5 (p4, c1, k60).
+1772002559: New client connected from 172.19.0.1:43708 as sim_device_2 (p4, c1, k60).
+1772002559: New client connected from 172.19.0.1:43726 as sim_device_1 (p4, c1, k60).
+1772002559: New client connected from 172.19.0.1:43730 as sim_device_3 (p4, c1, k60).
+1772002559: New client connected from 172.19.0.1:43732 as sim_device_4 (p4, c1, k60).
+1772002568: Client sim_device_1 [172.19.0.1:43726] disconnected: connection closed by client.
+1772002568: Client sim_device_3 [172.19.0.1:43730] disconnected: connection closed by client.
+1772002568: Client sim_device_2 [172.19.0.1:43708] disconnected: connection closed by client.
+1772002568: Client sim_device_4 [172.19.0.1:43732] disconnected: connection closed by client.
+1772002568: Client sim_device_5 [172.19.0.1:43706] disconnected: connection closed by client.
+1772002675: New connection from 172.19.0.1:33498 on port 1883.
+1772002675: New connection from 172.19.0.1:33512 on port 1883.
+1772002675: New connection from 172.19.0.1:33496 on port 1883.
+1772002675: New connection from 172.19.0.1:33526 on port 1883.
+1772002675: New connection from 172.19.0.1:33520 on port 1883.
+1772002675: New client connected from 172.19.0.1:33498 as sim_device_1 (p4, c1, k60).
+1772002675: New client connected from 172.19.0.1:33512 as sim_device_5 (p4, c1, k60).
+1772002675: New client connected from 172.19.0.1:33496 as sim_device_3 (p4, c1, k60).
+1772002675: New client connected from 172.19.0.1:33526 as sim_device_4 (p4, c1, k60).
+1772002675: New client connected from 172.19.0.1:33520 as sim_device_2 (p4, c1, k60).
+1772002708: Client sim_device_5 [172.19.0.1:33512] disconnected: connection closed by client.
+1772002708: Client sim_device_4 [172.19.0.1:33526] disconnected: connection closed by client.
+1772002708: Client sim_device_1 [172.19.0.1:33498] disconnected: connection closed by client.
+1772002708: Client sim_device_2 [172.19.0.1:33520] disconnected: connection closed by client.
+1772002708: Client sim_device_3 [172.19.0.1:33496] disconnected: connection closed by client.
+1772002709: New connection from 172.19.0.1:58232 on port 1883.
+1772002709: New client connected from 172.19.0.1:58232 as sim_device_1 (p4, c1, k60).
+1772002809: New connection from 127.0.0.1:50028 on port 1883.
+1772002809: New client connected from 127.0.0.1:50028 as auto-294B9F93-ABD0-C7EA-34CC-303E153CE253 (p4, c1, k60).
+1772002827: Client sim_device_1 [172.19.0.1:58232] disconnected: connection closed by client.
+1772003383: New connection from 172.19.0.1:46950 on port 1883.
+1772003383: New client connected from 172.19.0.1:46950 as sim_device_1 (p4, c1, k60).
+1772003496: New connection from 172.19.0.1:34090 on port 1883.
+1772003496: New client connected from 172.19.0.1:34090 as flutter_client_1 (p3, c1, k0).
+1772003596: Client flutter_client_1 [172.19.0.1:34090] disconnected: connection closed by client.
+1772003596: New connection from 172.19.0.1:35730 on port 1883.
+1772003596: New client connected from 172.19.0.1:35730 as flutter_client_1 (p3, c1, k0).
+1772003697: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772043889: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772044308: Client sim_device_1 [172.19.0.1:46950] disconnected: connection closed by client.
+1772044308: Client flutter_client_1 [172.19.0.1:35730] disconnected: connection closed by client.
+1772046187: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772050615: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772051325: New connection from 172.19.0.1:57700 on port 1883.
+1772051325: New client connected from 172.19.0.1:57700 as sim_device_1 (p4, c1, k60).
+1772051345: Client sim_device_1 [172.19.0.1:57700] disconnected: connection closed by client.
+1772051358: New connection from 172.19.0.1:53606 on port 1883.
+1772051358: New client connected from 172.19.0.1:53606 as sim_device_1 (p4, c1, k60).
+1772051365: Client sim_device_1 [172.19.0.1:53606] disconnected: connection closed by client.
+1772051926: New connection from 172.19.0.1:43018 on port 1883.
+1772051926: New client connected from 172.19.0.1:43018 as sim_device_1 (p4, c1, k60).
+1772052027: Client sim_device_1 [172.19.0.1:43018] disconnected: connection closed by client.
+1772052044: New connection from 172.19.0.1:37536 on port 1883.
+1772052044: New client connected from 172.19.0.1:37536 as sim_device_1 (p4, c1, k60).
+1772052049: Client sim_device_1 [172.19.0.1:37536] disconnected: connection closed by client.
+1772052117: New connection from 172.19.0.1:45532 on port 1883.
+1772052117: New client connected from 172.19.0.1:45532 as sim_device_1 (p4, c1, k60).
+1772052118: Client sim_device_1 [172.19.0.1:45532] disconnected: connection closed by client.
+1772052416: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772052706: New connection from 172.19.0.1:48400 on port 1883.
+1772052706: New client connected from 172.19.0.1:48400 as sim_device_1 (p4, c1, k60).
+1772052821: Client sim_device_1 [172.19.0.1:48400] disconnected: connection closed by client.
+1772052823: New connection from 172.19.0.1:46528 on port 1883.
+1772052823: New client connected from 172.19.0.1:46528 as sim_device_1 (p4, c1, k60).
+1772052950: Client sim_device_1 [172.19.0.1:46528] disconnected: connection closed by client.
+1772052966: New connection from 172.19.0.1:58710 on port 1883.
+1772052966: New client connected from 172.19.0.1:58710 as sim_device_1 (p4, c1, k60).
+1772052967: Client sim_device_1 [172.19.0.1:58710] disconnected: connection closed by client.
+1772054083: New connection from 172.19.0.1:44580 on port 1883.
+1772054083: New connection from 172.19.0.1:44582 on port 1883.
+1772054083: New client connected from 172.19.0.1:44580 as sim_device_2 (p4, c1, k60).
+1772054083: New client connected from 172.19.0.1:44582 as sim_device_1 (p4, c1, k60).
+1772054084: Client sim_device_2 [172.19.0.1:44580] disconnected: connection closed by client.
+1772054084: Client sim_device_1 [172.19.0.1:44582] disconnected: connection closed by client.
+1772054217: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772056018: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772056150: New connection from 172.19.0.1:52316 on port 1883.
+1772056150: New connection from 172.19.0.1:52314 on port 1883.
+1772056150: New client connected from 172.19.0.1:52316 as sim_device_2 (p4, c1, k60).
+1772056150: New client connected from 172.19.0.1:52314 as sim_device_1 (p4, c1, k60).
+1772056160: Client sim_device_2 [172.19.0.1:52316] disconnected: connection closed by client.
+1772056160: Client sim_device_1 [172.19.0.1:52314] disconnected: connection closed by client.
+1772056493: New connection from 172.19.0.1:57524 on port 1883.
+1772056493: New connection from 172.19.0.1:57510 on port 1883.
+1772056493: New client connected from 172.19.0.1:57524 as sim_device_1 (p4, c1, k60).
+1772056493: New client connected from 172.19.0.1:57510 as sim_device_2 (p4, c1, k60).
+1772056503: Client sim_device_2 [172.19.0.1:57510] disconnected: connection closed by client.
+1772056503: Client sim_device_1 [172.19.0.1:57524] disconnected: connection closed by client.
+1772056519: New connection from 172.19.0.1:51354 on port 1883.
+1772056519: New connection from 172.19.0.1:51360 on port 1883.
+1772056519: New client connected from 172.19.0.1:51354 as sim_device_1 (p4, c1, k60).
+1772056519: New client connected from 172.19.0.1:51360 as sim_device_2 (p4, c1, k60).
+1772056529: Client sim_device_2 [172.19.0.1:51360] disconnected: connection closed by client.
+1772056529: Client sim_device_1 [172.19.0.1:51354] disconnected: connection closed by client.
+1772056534: Client auto-294B9F93-ABD0-C7EA-34CC-303E153CE253 [127.0.0.1:50028] disconnected.
+1772056549: mosquitto version 2.1.2 terminating
+1772056549: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772059137: mosquitto version 2.1.2 starting
+1772059137: Config loaded from /mosquitto/config/mosquitto.conf.
+1772059137: Bridge support available.
+1772059137: Persistence support available.
+1772059137: TLS support available.
+1772059137: TLS-PSK support available.
+1772059137: Websockets support available.
+1772059137: Opening ipv4 listen socket on port 1883.
+1772059137: Opening ipv6 listen socket on port 1883.
+1772059137: mosquitto version 2.1.2 running
+1772059146: New connection from 172.19.0.1:41744 on port 1883.
+1772059146: New connection from 172.19.0.1:41760 on port 1883.
+1772059146: New client connected from 172.19.0.1:41744 as sim_device_1 (p4, c1, k60).
+1772059146: New client connected from 172.19.0.1:41760 as sim_device_2 (p4, c1, k60).
+1772059146: Client sim_device_2 [172.19.0.1:41760] disconnected: connection closed by client.
+1772059146: Client sim_device_1 [172.19.0.1:41744] disconnected: connection closed by client.
+1772059158: New connection from 172.19.0.1:48176 on port 1883.
+1772059158: New connection from 172.19.0.1:48174 on port 1883.
+1772059158: New client connected from 172.19.0.1:48176 as sim_device_2 (p4, c1, k60).
+1772059158: New client connected from 172.19.0.1:48174 as sim_device_1 (p4, c1, k60).
+1772059159: Client sim_device_1 [172.19.0.1:48174] disconnected: connection closed by client.
+1772059159: Client sim_device_2 [172.19.0.1:48176] disconnected: connection closed by client.
+1772059199: mosquitto version 2.1.2 terminating
+1772059199: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772059420: mosquitto version 2.1.2 starting
+1772059420: Config loaded from /mosquitto/config/mosquitto.conf.
+1772059420: Bridge support available.
+1772059420: Persistence support available.
+1772059420: TLS support available.
+1772059420: TLS-PSK support available.
+1772059420: Websockets support available.
+1772059420: Opening ipv4 listen socket on port 1883.
+1772059420: Opening ipv6 listen socket on port 1883.
+1772059420: mosquitto version 2.1.2 running
+1772059421: New connection from 172.19.0.1:47322 on port 1883.
+1772059421: New connection from 172.19.0.1:47334 on port 1883.
+1772059421: New client connected from 172.19.0.1:47322 as sim_device_1 (p4, c1, k60).
+1772059421: New client connected from 172.19.0.1:47334 as sim_device_2 (p4, c1, k60).
+1772059422: Client sim_device_2 [172.19.0.1:47334] disconnected: connection closed by client.
+1772059422: Client sim_device_1 [172.19.0.1:47322] disconnected: connection closed by client.
+1772059434: mosquitto version 2.1.2 terminating
+1772059434: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772059554: mosquitto version 2.1.2 starting
+1772059554: Config loaded from /mosquitto/config/mosquitto.conf.
+1772059554: Bridge support available.
+1772059554: Persistence support available.
+1772059554: TLS support available.
+1772059554: TLS-PSK support available.
+1772059554: Websockets support available.
+1772059554: Opening ipv4 listen socket on port 1883.
+1772059554: Opening ipv6 listen socket on port 1883.
+1772059554: mosquitto version 2.1.2 running
+1772059556: New connection from 172.19.0.1:42896 on port 1883.
+1772059556: New connection from 172.19.0.1:42898 on port 1883.
+1772059556: New client connected from 172.19.0.1:42896 as sim_device_2 (p4, c1, k60).
+1772059556: New client connected from 172.19.0.1:42898 as sim_device_1 (p4, c1, k60).
+1772059561: Client sim_device_1 [172.19.0.1:42898] disconnected: connection closed by client.
+1772059561: Client sim_device_2 [172.19.0.1:42896] disconnected: connection closed by client.
+1772059700: mosquitto version 2.1.2 terminating
+1772059700: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772059728: mosquitto version 2.1.2 starting
+1772059728: Config loaded from /mosquitto/config/mosquitto.conf.
+1772059728: Bridge support available.
+1772059728: Persistence support available.
+1772059728: TLS support available.
+1772059728: TLS-PSK support available.
+1772059728: Websockets support available.
+1772059728: Opening ipv4 listen socket on port 1883.
+1772059728: Opening ipv6 listen socket on port 1883.
+1772059728: mosquitto version 2.1.2 running
+1772059730: New connection from 172.19.0.1:47532 on port 1883.
+1772059730: New connection from 172.19.0.1:47528 on port 1883.
+1772059730: New client connected from 172.19.0.1:47532 as sim_device_1 (p4, c1, k60).
+1772059730: New client connected from 172.19.0.1:47528 as sim_device_2 (p4, c1, k60).
+1772059848: Client sim_device_1 [172.19.0.1:47532] disconnected: connection closed by client.
+1772059848: Client sim_device_2 [172.19.0.1:47528] disconnected: connection closed by client.
+1772059849: New connection from 172.19.0.1:57338 on port 1883.
+1772059849: New connection from 172.19.0.1:57326 on port 1883.
+1772059849: New client connected from 172.19.0.1:57338 as sim_device_2 (p4, c1, k60).
+1772059849: New client connected from 172.19.0.1:57326 as sim_device_1 (p4, c1, k60).
+1772059897: Client sim_device_2 [172.19.0.1:57338] disconnected: connection closed by client.
+1772059897: Client sim_device_1 [172.19.0.1:57326] disconnected: connection closed by client.
+1772059915: New connection from 172.19.0.1:44518 on port 1883.
+1772059915: New connection from 172.19.0.1:44524 on port 1883.
+1772059915: New client connected from 172.19.0.1:44518 as sim_device_1 (p4, c1, k60).
+1772059915: New client connected from 172.19.0.1:44524 as sim_device_2 (p4, c1, k60).
+1772059941: Client sim_device_1 [172.19.0.1:44518] disconnected: connection closed by client.
+1772059941: Client sim_device_2 [172.19.0.1:44524] disconnected: connection closed by client.
+1772060027: New connection from 172.19.0.1:51444 on port 1883.
+1772060027: New connection from 172.19.0.1:51454 on port 1883.
+1772060027: New client connected from 172.19.0.1:51444 as sim_device_1 (p4, c1, k60).
+1772060027: New client connected from 172.19.0.1:51454 as sim_device_2 (p4, c1, k60).
+1772060044: Client sim_device_2 [172.19.0.1:51454] disconnected: connection closed by client.
+1772060044: Client sim_device_1 [172.19.0.1:51444] disconnected: connection closed by client.
+1772060160: New connection from 172.19.0.1:51916 on port 1883.
+1772060160: New client connected from 172.19.0.1:51916 as sim_device_1 (p4, c1, k60).
+1772060198: Client sim_device_1 [172.19.0.1:51916] disconnected: connection closed by client.
+1772060375: New connection from 172.19.0.1:58904 on port 1883.
+1772060375: New client connected from 172.19.0.1:58904 as sim_device_1 (p4, c1, k60).
+1772060422: Client sim_device_1 [172.19.0.1:58904] disconnected: connection closed by client.
+1772060492: New connection from 172.19.0.1:34364 on port 1883.
+1772060492: New client connected from 172.19.0.1:34364 as sim_device_1 (p4, c1, k60).
+1772060502: mosquitto version 2.1.2 terminating
+1772060502: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772060705: mosquitto version 2.1.2 starting
+1772060705: Config loaded from /mosquitto/config/mosquitto.conf.
+1772060705: Bridge support available.
+1772060705: Persistence support available.
+1772060705: TLS support available.
+1772060705: TLS-PSK support available.
+1772060705: Websockets support available.
+1772060705: Opening ipv4 listen socket on port 1883.
+1772060705: Opening ipv6 listen socket on port 1883.
+1772060705: mosquitto version 2.1.2 running
+1772060709: New connection from 172.19.0.1:41968 on port 1883.
+1772060709: New client connected from 172.19.0.1:41968 as sim_device_1 (p4, c1, k60).
+1772060709: Client sim_device_1 [172.19.0.1:41968] disconnected: connection closed by client.
+1772060719: New connection from 172.19.0.1:46672 on port 1883.
+1772060719: New client connected from 172.19.0.1:46672 as sim_device_1 (p4, c1, k60).
+1772060733: mosquitto version 2.1.2 terminating
+1772060733: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772060742: mosquitto version 2.1.2 starting
+1772060742: Config loaded from /mosquitto/config/mosquitto.conf.
+1772060742: Bridge support available.
+1772060742: Persistence support available.
+1772060742: TLS support available.
+1772060742: TLS-PSK support available.
+1772060742: Websockets support available.
+1772060742: Opening ipv4 listen socket on port 1883.
+1772060742: Opening ipv6 listen socket on port 1883.
+1772060742: mosquitto version 2.1.2 running
+1772060745: New connection from 172.19.0.1:43872 on port 1883.
+1772060745: New client connected from 172.19.0.1:43872 as sim_device_1 (p4, c1, k60).
+1772060808: Client sim_device_1 [172.19.0.1:43872] disconnected: connection closed by client.
+1772061045: New connection from 172.19.0.1:34098 on port 1883.
+1772061045: New client connected from 172.19.0.1:34098 as sim_device_1 (p4, c1, k60).
+1772061134: New connection from 172.19.0.1:58636 on port 1883.
+1772061134: New client connected from 172.19.0.1:58636 as flutter_client_1 (p3, c1, k0).
+1772061187: Client sim_device_1 [172.19.0.1:34098] disconnected: connection closed by client.
+1772061213: New connection from 172.19.0.1:37524 on port 1883.
+1772061213: New connection from 172.19.0.1:37536 on port 1883.
+1772061213: Protocol error from 172.19.0.1:37536: First packet not CONNECT (47).
+1772061213: Client 172.19.0.1 [172.19.0.1:37536] disconnected: protocol error.
+1772061214: Protocol error from 172.19.0.1:37524: First packet not CONNECT (47).
+1772061214: Client 172.19.0.1 [172.19.0.1:37524] disconnected: protocol error.
+1772061214: New connection from 172.19.0.1:37552 on port 1883.
+1772061214: Protocol error from 172.19.0.1:37552: First packet not CONNECT (47).
+1772061214: Client 172.19.0.1 [172.19.0.1:37552] disconnected: protocol error.
+1772061214: New connection from 172.19.0.1:37568 on port 1883.
+1772061214: Protocol error from 172.19.0.1:37568: First packet not CONNECT (47).
+1772061214: Client 172.19.0.1 [172.19.0.1:37568] disconnected: protocol error.
+1772061234: New connection from 127.0.0.1:37028 on port 1883.
+1772061234: New client connected from 127.0.0.1:37028 as auto-A2D15D5A-DF24-3A44-2F78-54713DB83936 (p4, c1, k60).
+1772061258: New connection from 172.19.0.1:49882 on port 1883.
+1772061258: New client connected from 172.19.0.1:49882 as sim_device_1 (p4, c1, k60).
+1772061396: Client sim_device_1 [172.19.0.1:49882] disconnected: connection closed by client.
+1772061399: New connection from 172.19.0.1:59266 on port 1883.
+1772061399: New client connected from 172.19.0.1:59266 as sim_device_1 (p4, c1, k60).
+1772061449: Client sim_device_1 [172.19.0.1:59266] disconnected: connection closed by client.
+1772061450: New connection from 172.19.0.1:51360 on port 1883.
+1772061450: New client connected from 172.19.0.1:51360 as sim_device_1 (p4, c1, k60).
+1772061475: Client sim_device_1 [172.19.0.1:51360] disconnected: connection closed by client.
+1772061475: Client flutter_client_1 [172.19.0.1:58636] disconnected: connection closed by client.
+1772061494: New connection from 172.19.0.1:32882 on port 1883.
+1772061494: New client connected from 172.19.0.1:32882 as sim_device_1 (p4, c1, k60).
+1772061614: New connection from 172.19.0.1:38298 on port 1883.
+1772061614: New client connected from 172.19.0.1:38298 as flutter_client_1 (p3, c1, k0).
+1772061626: Client flutter_client_1 [172.19.0.1:38298] disconnected: connection closed by client.
+1772061728: New connection from 172.19.0.1:51438 on port 1883.
+1772061728: New client connected from 172.19.0.1:51438 as flutter_client_1 (p3, c1, k0).
+1772062024: Client sim_device_1 [172.19.0.1:32882] disconnected: connection closed by client.
+1772062026: Client flutter_client_1 [172.19.0.1:51438] disconnected: connection closed by client.
+1772062026: New connection from 172.19.0.1:37094 on port 1883.
+1772062026: New client connected from 172.19.0.1:37094 as flutter_client_1 (p3, c1, k0).
+1772062033: New connection from 172.19.0.1:53160 on port 1883.
+1772062033: New client connected from 172.19.0.1:53160 as sim_device_1 (p4, c1, k60).
+1772062103: Client auto-A2D15D5A-DF24-3A44-2F78-54713DB83936 [127.0.0.1:37028] disconnected.
+1772062109: mosquitto version 2.1.2 terminating
+1772062109: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772087196: mosquitto version 2.1.2 starting
+1772087196: Config loaded from /mosquitto/config/mosquitto.conf.
+1772087196: Bridge support available.
+1772087196: Persistence support available.
+1772087196: TLS support available.
+1772087196: TLS-PSK support available.
+1772087196: Websockets support available.
+1772087196: Opening ipv4 listen socket on port 1883.
+1772087196: Opening ipv6 listen socket on port 1883.
+1772087196: mosquitto version 2.1.2 running
+1772087230: New connection from 172.19.0.1:34546 on port 1883.
+1772087230: New client connected from 172.19.0.1:34546 as flutter_client_1 (p3, c1, k0).
+1772087251: New connection from 172.19.0.1:38180 on port 1883.
+1772087251: New connection from 172.19.0.1:38196 on port 1883.
+1772087251: New client connected from 172.19.0.1:38180 as sim_device_1 (p4, c1, k60).
+1772087251: New client connected from 172.19.0.1:38196 as sim_device_2 (p4, c1, k60).
+1772087285: Client flutter_client_1 [172.19.0.1:34546] disconnected: connection closed by client.
+1772087591: New connection from 172.19.0.1:47334 on port 1883.
+1772087591: New client connected from 172.19.0.1:47334 as flutter_client_1 (p3, c1, k0).
+1772087726: Client sim_device_2 [172.19.0.1:38196] disconnected: connection closed by client.
+1772087726: Client sim_device_1 [172.19.0.1:38180] disconnected: connection closed by client.
+1772087726: Client flutter_client_1 [172.19.0.1:47334] disconnected: connection closed by client.
+1772087730: mosquitto version 2.1.2 terminating
+1772087730: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772092171: mosquitto version 2.1.2 starting
+1772092171: Config loaded from /mosquitto/config/mosquitto.conf.
+1772092171: Bridge support available.
+1772092171: Persistence support available.
+1772092171: TLS support available.
+1772092171: TLS-PSK support available.
+1772092171: Websockets support available.
+1772092171: Opening ipv4 listen socket on port 1883.
+1772092171: Opening ipv6 listen socket on port 1883.
+1772092171: mosquitto version 2.1.2 running
+1772092178: New connection from 172.19.0.1:43292 on port 1883.
+1772092178: New connection from 172.19.0.1:43294 on port 1883.
+1772092178: New client connected from 172.19.0.1:43292 as sim_device_1 (p4, c1, k60).
+1772092178: New client connected from 172.19.0.1:43294 as sim_device_2 (p4, c1, k60).
+1772092183: New connection from 172.19.0.1:43322 on port 1883.
+1772092183: New client connected from 172.19.0.1:43322 as flutter_client_1 (p3, c1, k0).
+1772092833: Client sim_device_1 [172.19.0.1:43292] disconnected: connection closed by client.
+1772092833: Client sim_device_2 [172.19.0.1:43294] disconnected: connection closed by client.
+1772092833: Client flutter_client_1 [172.19.0.1:43322] disconnected: connection closed by client.
+1772096432: New connection from 172.19.0.1:57066 on port 1883.
+1772096432: New connection from 172.19.0.1:57058 on port 1883.
+1772096432: New client connected from 172.19.0.1:57066 as sim_device_1 (p4, c1, k60).
+1772096432: New client connected from 172.19.0.1:57058 as sim_device_2 (p4, c1, k60).
+1772096471: New connection from 172.19.0.1:59974 on port 1883.
+1772096471: New client connected from 172.19.0.1:59974 as flutter_client_1 (p3, c1, k0).
+1772096510: Client flutter_client_1 [172.19.0.1:59974] disconnected: connection closed by client.
+1772096564: New connection from 172.19.0.1:49394 on port 1883.
+1772096564: New client connected from 172.19.0.1:49394 as flutter_client_1 (p3, c1, k0).
+1772096632: Client sim_device_1 [172.19.0.1:57066] disconnected: connection closed by client.
+1772096632: Client sim_device_2 [172.19.0.1:57058] disconnected: connection closed by client.
+1772096632: Client flutter_client_1 [172.19.0.1:49394] disconnected: connection closed by client.
+1772102615: New connection from 172.19.0.1:56276 on port 1883.
+1772102615: New client connected from 172.19.0.1:56276 as flutter_client_1 (p3, c1, k0).
+1772102627: New connection from 172.19.0.1:44558 on port 1883.
+1772102627: New connection from 172.19.0.1:44566 on port 1883.
+1772102627: New client connected from 172.19.0.1:44558 as sim_device_2 (p4, c1, k60).
+1772102627: New client connected from 172.19.0.1:44566 as sim_device_1 (p4, c1, k60).
+1772102651: Client sim_device_1 [172.19.0.1:44566] disconnected: connection closed by client.
+1772102651: Client sim_device_2 [172.19.0.1:44558] disconnected: connection closed by client.
+1772102651: Client flutter_client_1 [172.19.0.1:56276] disconnected: connection closed by client.
+1772102651: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772102756: New connection from 172.19.0.1:59660 on port 1883.
+1772102756: New client connected from 172.19.0.1:59660 as flutter_client_1 (p3, c1, k0).
+1772102763: New connection from 172.19.0.1:59666 on port 1883.
+1772102763: New connection from 172.19.0.1:59668 on port 1883.
+1772102763: New client connected from 172.19.0.1:59666 as sim_device_2 (p4, c1, k60).
+1772102763: New client connected from 172.19.0.1:59668 as sim_device_1 (p4, c1, k60).
+1772102782: Client sim_device_1 [172.19.0.1:59668] disconnected: connection closed by client.
+1772102782: Client sim_device_2 [172.19.0.1:59666] disconnected: connection closed by client.
+1772103102: New connection from 172.19.0.1:51588 on port 1883.
+1772103102: New connection from 172.19.0.1:51586 on port 1883.
+1772103102: New client connected from 172.19.0.1:51588 as sim_device_1 (p4, c1, k60).
+1772103102: New client connected from 172.19.0.1:51586 as sim_device_2 (p4, c1, k60).
+1772103114: Client flutter_client_1 [172.19.0.1:59660] disconnected: connection closed by client.
+1772103115: New connection from 172.19.0.1:35230 on port 1883.
+1772103115: New client connected from 172.19.0.1:35230 as flutter_client_1 (p3, c1, k0).
+1772103240: Client flutter_client_1 [172.19.0.1:35230] disconnected: connection closed by client.
+1772103240: New connection from 172.19.0.1:39436 on port 1883.
+1772103240: New client connected from 172.19.0.1:39436 as flutter_client_1 (p3, c1, k0).
+1772103404: Client flutter_client_1 [172.19.0.1:39436] disconnected: connection closed by client.
+1772103405: New connection from 172.19.0.1:39154 on port 1883.
+1772103405: New client connected from 172.19.0.1:39154 as flutter_client_1 (p3, c1, k0).
+1772103493: Client flutter_client_1 [172.19.0.1:39154] disconnected: connection closed by client.
+1772103494: New connection from 172.19.0.1:54946 on port 1883.
+1772103494: New client connected from 172.19.0.1:54946 as flutter_client_1 (p3, c1, k0).
+1772103502: Client flutter_client_1 [172.19.0.1:54946] disconnected: connection closed by client.
+1772103503: New connection from 172.19.0.1:48256 on port 1883.
+1772103503: New client connected from 172.19.0.1:48256 as flutter_client_1 (p3, c1, k0).
+1772103521: Client flutter_client_1 [172.19.0.1:48256] disconnected: connection closed by client.
+1772103521: New connection from 172.19.0.1:34910 on port 1883.
+1772103521: New client connected from 172.19.0.1:34910 as flutter_client_1 (p3, c1, k0).
+1772103539: Client flutter_client_1 [172.19.0.1:34910] disconnected: connection closed by client.
+1772103539: New connection from 172.19.0.1:50426 on port 1883.
+1772103539: New client connected from 172.19.0.1:50426 as flutter_client_1 (p3, c1, k0).
+1772103666: Client flutter_client_1 [172.19.0.1:50426] disconnected: connection closed by client.
+1772103667: New connection from 172.19.0.1:42730 on port 1883.
+1772103667: New client connected from 172.19.0.1:42730 as flutter_client_1 (p3, c1, k0).
+1772103673: Client flutter_client_1 [172.19.0.1:42730] disconnected: connection closed by client.
+1772103674: New connection from 172.19.0.1:42742 on port 1883.
+1772103674: New client connected from 172.19.0.1:42742 as flutter_client_1 (p3, c1, k0).
+1772103728: Client flutter_client_1 [172.19.0.1:42742] disconnected: connection closed by client.
+1772103728: New connection from 172.19.0.1:42530 on port 1883.
+1772103728: New client connected from 172.19.0.1:42530 as flutter_client_1 (p3, c1, k0).
+1772103735: Client sim_device_1 [172.19.0.1:51588] disconnected: connection closed by client.
+1772103735: Client sim_device_2 [172.19.0.1:51586] disconnected: connection closed by client.
+1772103735: Client flutter_client_1 [172.19.0.1:42530] disconnected: connection closed by client.
+1772106120: New connection from 172.19.0.1:33816 on port 1883.
+1772106120: New client connected from 172.19.0.1:33816 as flutter_client_1 (p3, c1, k0).
+1772106151: mosquitto version 2.1.2 terminating
+1772106151: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772109852: mosquitto version 2.1.2 starting
+1772109852: Config loaded from /mosquitto/config/mosquitto.conf.
+1772109852: Bridge support available.
+1772109852: Persistence support available.
+1772109852: TLS support available.
+1772109852: TLS-PSK support available.
+1772109852: Websockets support available.
+1772109852: Opening ipv4 listen socket on port 1883.
+1772109852: Opening ipv6 listen socket on port 1883.
+1772109852: mosquitto version 2.1.2 running
+1772110010: New connection from 172.19.0.1:52826 on port 1883.
+1772110010: New client connected from 172.19.0.1:52826 as flutter_client_1 (p3, c1, k20).
+1772110026: mosquitto version 2.1.2 terminating
+1772110026: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772110047: mosquitto version 2.1.2 starting
+1772110047: Config loaded from /mosquitto/config/mosquitto.conf.
+1772110047: Bridge support available.
+1772110047: Persistence support available.
+1772110047: TLS support available.
+1772110047: TLS-PSK support available.
+1772110047: Websockets support available.
+1772110047: Opening ipv4 listen socket on port 1883.
+1772110047: Opening ipv6 listen socket on port 1883.
+1772110047: mosquitto version 2.1.2 running
+1772110051: New connection from 172.19.0.1:34300 on port 1883.
+1772110051: New client connected from 172.19.0.1:34300 as flutter_client_1 (p3, c1, k20).
+1772110063: Client flutter_client_1 [172.19.0.1:34300] disconnected: connection closed by client.
+1772110065: mosquitto version 2.1.2 terminating
+1772110065: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772110131: mosquitto version 2.1.2 starting
+1772110131: Config loaded from /mosquitto/config/mosquitto.conf.
+1772110131: Bridge support available.
+1772110131: Persistence support available.
+1772110131: TLS support available.
+1772110131: TLS-PSK support available.
+1772110131: Websockets support available.
+1772110131: Opening ipv4 listen socket on port 1883.
+1772110131: Opening ipv6 listen socket on port 1883.
+1772110131: mosquitto version 2.1.2 running
+1772111051: New connection from 172.19.0.1:37716 on port 1883.
+1772111051: New client connected from 172.19.0.1:37716 as flutter_client_1 (p3, c1, k20).
+1772111061: mosquitto version 2.1.2 terminating
+1772111061: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772111069: mosquitto version 2.1.2 starting
+1772111069: Config loaded from /mosquitto/config/mosquitto.conf.
+1772111069: Bridge support available.
+1772111069: Persistence support available.
+1772111069: TLS support available.
+1772111069: TLS-PSK support available.
+1772111069: Websockets support available.
+1772111069: Opening ipv4 listen socket on port 1883.
+1772111069: Opening ipv6 listen socket on port 1883.
+1772111069: mosquitto version 2.1.2 running
+1772111071: New connection from 172.19.0.1:39710 on port 1883.
+1772111071: New client connected from 172.19.0.1:39710 as flutter_client_1 (p3, c1, k20).
+1772111079: mosquitto version 2.1.2 terminating
+1772111079: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772111096: mosquitto version 2.1.2 starting
+1772111096: Config loaded from /mosquitto/config/mosquitto.conf.
+1772111096: Bridge support available.
+1772111096: Persistence support available.
+1772111096: TLS support available.
+1772111096: TLS-PSK support available.
+1772111096: Websockets support available.
+1772111096: Opening ipv4 listen socket on port 1883.
+1772111096: Opening ipv6 listen socket on port 1883.
+1772111096: mosquitto version 2.1.2 running
+1772111097: New connection from 172.19.0.1:37394 on port 1883.
+1772111097: New client connected from 172.19.0.1:37394 as flutter_client_1 (p3, c1, k20).
+1772111109: Client flutter_client_1 [172.19.0.1:37394] disconnected: connection closed by client.
+1772112282: New connection from 172.19.0.1:41734 on port 1883.
+1772112282: New client connected from 172.19.0.1:41734 as flutter_client_1 (p3, c1, k20).
+1772112291: mosquitto version 2.1.2 terminating
+1772112291: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772112372: mosquitto version 2.1.2 starting
+1772112372: Config loaded from /mosquitto/config/mosquitto.conf.
+1772112372: Bridge support available.
+1772112372: Persistence support available.
+1772112372: TLS support available.
+1772112372: TLS-PSK support available.
+1772112372: Websockets support available.
+1772112372: Opening ipv4 listen socket on port 1883.
+1772112372: Opening ipv6 listen socket on port 1883.
+1772112372: mosquitto version 2.1.2 running
+1772112376: New connection from 172.19.0.1:58168 on port 1883.
+1772112376: New client connected from 172.19.0.1:58168 as flutter_client_1 (p3, c1, k20).
+1772112386: mosquitto version 2.1.2 terminating
+1772112386: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772112424: mosquitto version 2.1.2 starting
+1772112424: Config loaded from /mosquitto/config/mosquitto.conf.
+1772112424: Bridge support available.
+1772112424: Persistence support available.
+1772112424: TLS support available.
+1772112424: TLS-PSK support available.
+1772112424: Websockets support available.
+1772112424: Opening ipv4 listen socket on port 1883.
+1772112424: Opening ipv6 listen socket on port 1883.
+1772112424: mosquitto version 2.1.2 running
+1772112425: New connection from 172.19.0.1:54744 on port 1883.
+1772112425: New client connected from 172.19.0.1:54744 as flutter_client_1 (p3, c1, k20).
+1772112438: mosquitto version 2.1.2 terminating
+1772112438: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772112690: mosquitto version 2.1.2 starting
+1772112690: Config loaded from /mosquitto/config/mosquitto.conf.
+1772112690: Bridge support available.
+1772112690: Persistence support available.
+1772112690: TLS support available.
+1772112690: TLS-PSK support available.
+1772112690: Websockets support available.
+1772112690: Opening ipv4 listen socket on port 1883.
+1772112690: Opening ipv6 listen socket on port 1883.
+1772112690: mosquitto version 2.1.2 running
+1772112692: New connection from 172.19.0.1:41616 on port 1883.
+1772112692: New client connected from 172.19.0.1:41616 as flutter_client_1 (p3, c1, k20).
+1772112778: Client flutter_client_1 [172.19.0.1:41616] disconnected: connection closed by client.
+1772112778: New connection from 172.19.0.1:56354 on port 1883.
+1772112778: New client connected from 172.19.0.1:56354 as flutter_client_1 (p3, c1, k20).
+1772112798: mosquitto version 2.1.2 terminating
+1772112798: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772112862: mosquitto version 2.1.2 starting
+1772112862: Config loaded from /mosquitto/config/mosquitto.conf.
+1772112862: Bridge support available.
+1772112862: Persistence support available.
+1772112862: TLS support available.
+1772112862: TLS-PSK support available.
+1772112862: Websockets support available.
+1772112862: Opening ipv4 listen socket on port 1883.
+1772112862: Opening ipv6 listen socket on port 1883.
+1772112862: mosquitto version 2.1.2 running
+1772112863: New connection from 172.19.0.1:56876 on port 1883.
+1772112863: New client connected from 172.19.0.1:56876 as flutter_client_1 (p3, c1, k20).
+1772114815: Client flutter_client_1 [172.19.0.1:56876] disconnected: connection closed by client.
+1772114816: New connection from 172.19.0.1:36444 on port 1883.
+1772114816: New client connected from 172.19.0.1:36444 as flutter_client_1 (p3, c1, k20).
+1772114818: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772114839: Client flutter_client_1 [172.19.0.1:36444] disconnected: connection closed by client.
+1772114839: New connection from 172.19.0.1:56890 on port 1883.
+1772114839: New client connected from 172.19.0.1:56890 as flutter_client_1 (p3, c1, k20).
+1772114858: mosquitto version 2.1.2 terminating
+1772114858: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772114888: mosquitto version 2.1.2 starting
+1772114888: Config loaded from /mosquitto/config/mosquitto.conf.
+1772114888: Bridge support available.
+1772114888: Persistence support available.
+1772114888: TLS support available.
+1772114888: TLS-PSK support available.
+1772114888: Websockets support available.
+1772114888: Opening ipv4 listen socket on port 1883.
+1772114888: Opening ipv6 listen socket on port 1883.
+1772114888: mosquitto version 2.1.2 running
+1772114890: New connection from 172.19.0.1:33924 on port 1883.
+1772114890: New client connected from 172.19.0.1:33924 as flutter_client_1 (p3, c1, k20).
+1772114989: mosquitto version 2.1.2 terminating
+1772114989: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772116277: mosquitto version 2.1.2 starting
+1772116277: Config loaded from /mosquitto/config/mosquitto.conf.
+1772116277: Bridge support available.
+1772116277: Persistence support available.
+1772116277: TLS support available.
+1772116277: TLS-PSK support available.
+1772116277: Websockets support available.
+1772116277: Opening ipv4 listen socket on port 1883.
+1772116277: Opening ipv6 listen socket on port 1883.
+1772116277: mosquitto version 2.1.2 running
+1772116280: New connection from 172.19.0.1:36584 on port 1883.
+1772116280: New client connected from 172.19.0.1:36584 as flutter_client_1 (p3, c1, k20).
+1772116399: Client flutter_client_1 [172.19.0.1:36584] disconnected: connection closed by client.
+1772116399: New connection from 172.19.0.1:35510 on port 1883.
+1772116399: New client connected from 172.19.0.1:35510 as flutter_client_1 (p3, c1, k20).
+1772117041: mosquitto version 2.1.2 terminating
+1772117041: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772117057: mosquitto version 2.1.2 starting
+1772117057: Config loaded from /mosquitto/config/mosquitto.conf.
+1772117057: Bridge support available.
+1772117057: Persistence support available.
+1772117057: TLS support available.
+1772117057: TLS-PSK support available.
+1772117057: Websockets support available.
+1772117057: Opening ipv4 listen socket on port 1883.
+1772117057: Opening ipv6 listen socket on port 1883.
+1772117057: mosquitto version 2.1.2 running
+1772117061: New connection from 172.19.0.1:49374 on port 1883.
+1772117061: New client connected from 172.19.0.1:49374 as flutter_client_1 (p3, c1, k20).
+1772117566: mosquitto version 2.1.2 terminating
+1772117566: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772117598: mosquitto version 2.1.2 starting
+1772117598: Config loaded from /mosquitto/config/mosquitto.conf.
+1772117598: Bridge support available.
+1772117598: Persistence support available.
+1772117598: TLS support available.
+1772117598: TLS-PSK support available.
+1772117598: Websockets support available.
+1772117598: Opening ipv4 listen socket on port 1883.
+1772117598: Opening ipv6 listen socket on port 1883.
+1772117598: mosquitto version 2.1.2 running
+1772117603: New connection from 172.19.0.1:36250 on port 1883.
+1772117603: New client connected from 172.19.0.1:36250 as flutter_client_1 (p3, c1, k20).
+1772117675: Client flutter_client_1 [172.19.0.1:36250] disconnected: connection closed by client.
+1772117675: New connection from 172.19.0.1:33908 on port 1883.
+1772117675: New client connected from 172.19.0.1:33908 as flutter_client_1 (p3, c1, k20).
+1772117809: mosquitto version 2.1.2 terminating
+1772117809: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772117884: mosquitto version 2.1.2 starting
+1772117884: Config loaded from /mosquitto/config/mosquitto.conf.
+1772117884: Bridge support available.
+1772117884: Persistence support available.
+1772117884: TLS support available.
+1772117884: TLS-PSK support available.
+1772117884: Websockets support available.
+1772117884: Opening ipv4 listen socket on port 1883.
+1772117884: Opening ipv6 listen socket on port 1883.
+1772117884: mosquitto version 2.1.2 running
+1772117889: New connection from 172.19.0.1:48110 on port 1883.
+1772117889: New client connected from 172.19.0.1:48110 as flutter_client_1 (p3, c1, k20).
+1772117898: mosquitto version 2.1.2 terminating
+1772117898: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772117903: mosquitto version 2.1.2 starting
+1772117903: Config loaded from /mosquitto/config/mosquitto.conf.
+1772117903: Bridge support available.
+1772117903: Persistence support available.
+1772117903: TLS support available.
+1772117903: TLS-PSK support available.
+1772117903: Websockets support available.
+1772117903: Opening ipv4 listen socket on port 1883.
+1772117903: Opening ipv6 listen socket on port 1883.
+1772117903: mosquitto version 2.1.2 running
+1772117908: New connection from 172.19.0.1:55312 on port 1883.
+1772117908: New client connected from 172.19.0.1:55312 as flutter_client_1 (p3, c1, k20).
+1772118776: Client flutter_client_1 [172.19.0.1:55312] disconnected: connection closed by client.
+1772118776: New connection from 172.19.0.1:38958 on port 1883.
+1772118776: New client connected from 172.19.0.1:38958 as flutter_client_1 (p3, c1, k20).
+1772118786: New connection from 172.19.0.1:32974 on port 1883.
+1772118786: New connection from 172.19.0.1:32962 on port 1883.
+1772118786: New client connected from 172.19.0.1:32974 as sim_device_2 (p4, c1, k60).
+1772118786: New client connected from 172.19.0.1:32962 as sim_device_1 (p4, c1, k60).
+1772119277: Client flutter_client_1 [172.19.0.1:38958] disconnected: connection closed by client.
+1772119332: New connection from 172.19.0.1:53560 on port 1883.
+1772119332: New client connected from 172.19.0.1:53560 as flutter_client_1 (p3, c1, k20).
+1772119442: Client flutter_client_1 [172.19.0.1:53560] disconnected: connection closed by client.
+1772119443: New connection from 172.19.0.1:33370 on port 1883.
+1772119443: New client connected from 172.19.0.1:33370 as flutter_client_1 (p3, c1, k20).
+1772119542: Client sim_device_1 [172.19.0.1:32962] disconnected: connection closed by client.
+1772119542: Client sim_device_2 [172.19.0.1:32974] disconnected: connection closed by client.
+1772119542: Client flutter_client_1 [172.19.0.1:33370] disconnected: connection closed by client.
+1772119998: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772124300: New connection from 172.19.0.1:39752 on port 1883.
+1772124300: New connection from 172.19.0.1:39736 on port 1883.
+1772124300: New client connected from 172.19.0.1:39752 as sim_device_1 (p4, c1, k60).
+1772124300: New client connected from 172.19.0.1:39736 as sim_device_2 (p4, c1, k60).
+1772124336: New connection from 172.19.0.1:36806 on port 1883.
+1772124336: New client connected from 172.19.0.1:36806 as flutter_client_1 (p3, c1, k20).
+1772125642: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772126296: Client flutter_client_1 [172.19.0.1:36806] disconnected: connection closed by client.
+1772126296: New connection from 172.19.0.1:42086 on port 1883.
+1772126296: New client connected from 172.19.0.1:42086 as flutter_client_1 (p3, c1, k20).
+1772126328: Client flutter_client_1 [172.19.0.1:42086] disconnected: connection closed by client.
+1772126328: New connection from 172.19.0.1:51312 on port 1883.
+1772126328: New client connected from 172.19.0.1:51312 as flutter_client_1 (p3, c1, k20).
+1772126406: Client flutter_client_1 [172.19.0.1:51312] disconnected: connection closed by client.
+1772126407: New connection from 172.19.0.1:58654 on port 1883.
+1772126407: New client connected from 172.19.0.1:58654 as flutter_client_1 (p3, c1, k20).
+1772126453: Client flutter_client_1 [172.19.0.1:58654] disconnected: connection closed by client.
+1772126453: New connection from 172.19.0.1:55960 on port 1883.
+1772126453: New client connected from 172.19.0.1:55960 as flutter_client_1 (p3, c1, k20).
+1772126631: mosquitto version 2.1.2 terminating
+1772126631: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772126766: mosquitto version 2.1.2 starting
+1772126766: Config loaded from /mosquitto/config/mosquitto.conf.
+1772126766: Bridge support available.
+1772126766: Persistence support available.
+1772126766: TLS support available.
+1772126766: TLS-PSK support available.
+1772126766: Websockets support available.
+1772126766: Opening ipv4 listen socket on port 1883.
+1772126766: Opening ipv6 listen socket on port 1883.
+1772126766: mosquitto version 2.1.2 running
+1772126766: New connection from 172.19.0.1:57410 on port 1883.
+1772126766: New client connected from 172.19.0.1:57410 as flutter_client_1 (p3, c1, k20).
+1772126788: New connection from 172.19.0.1:44446 on port 1883.
+1772126788: New connection from 172.19.0.1:44430 on port 1883.
+1772126788: New client connected from 172.19.0.1:44446 as sim_device_1 (p4, c1, k60).
+1772126788: New client connected from 172.19.0.1:44430 as sim_device_2 (p4, c1, k60).
+1772126878: Client sim_device_1 [172.19.0.1:44446] disconnected: connection closed by client.
+1772126878: Client sim_device_2 [172.19.0.1:44430] disconnected: connection closed by client.
+1772126878: Client flutter_client_1 [172.19.0.1:57410] disconnected: connection closed by client.
+1772126880: mosquitto version 2.1.2 terminating
+1772126880: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772173823: mosquitto version 2.1.2 starting
+1772173823: Config loaded from /mosquitto/config/mosquitto.conf.
+1772173823: Bridge support available.
+1772173823: Persistence support available.
+1772173823: TLS support available.
+1772173823: TLS-PSK support available.
+1772173823: Websockets support available.
+1772173823: Opening ipv4 listen socket on port 1883.
+1772173823: Opening ipv6 listen socket on port 1883.
+1772173823: mosquitto version 2.1.2 running
+1772173989: New connection from 172.19.0.1:50662 on port 1883.
+1772173989: New connection from 172.19.0.1:50664 on port 1883.
+1772173989: New client connected from 172.19.0.1:50662 as sim_device_1 (p4, c1, k60).
+1772173989: New client connected from 172.19.0.1:50664 as sim_device_2 (p4, c1, k60).
+1772174032: New connection from 172.19.0.1:36574 on port 1883.
+1772174032: New client connected from 172.19.0.1:36574 as flutter_client_1 (p3, c1, k20).
+1772174168: Client flutter_client_1 [172.19.0.1:36574] disconnected: connection closed by client.
+1772174169: New connection from 172.19.0.1:55958 on port 1883.
+1772174169: New client connected from 172.19.0.1:55958 as flutter_client_1 (p3, c1, k20).
+1772174201: mosquitto version 2.1.2 terminating
+1772174201: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772174215: mosquitto version 2.1.2 starting
+1772174215: Config loaded from /mosquitto/config/mosquitto.conf.
+1772174215: Bridge support available.
+1772174215: Persistence support available.
+1772174215: TLS support available.
+1772174215: TLS-PSK support available.
+1772174215: Websockets support available.
+1772174215: Opening ipv4 listen socket on port 1883.
+1772174215: Opening ipv6 listen socket on port 1883.
+1772174215: mosquitto version 2.1.2 running
+1772174216: New connection from 172.19.0.1:47646 on port 1883.
+1772174216: New client connected from 172.19.0.1:47646 as flutter_client_1 (p3, c1, k20).
+1772174241: Client flutter_client_1 [172.19.0.1:47646] disconnected: connection closed by client.
+1772174241: New connection from 172.19.0.1:56256 on port 1883.
+1772174241: New client connected from 172.19.0.1:56256 as flutter_client_1 (p3, c1, k20).
+1772174266: New connection from 172.19.0.1:43702 on port 1883.
+1772174266: New connection from 172.19.0.1:43700 on port 1883.
+1772174266: New client connected from 172.19.0.1:43702 as sim_device_2 (p4, c1, k60).
+1772174266: New client connected from 172.19.0.1:43700 as sim_device_1 (p4, c1, k60).
+1772174275: mosquitto version 2.1.2 terminating
+1772174275: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772174283: mosquitto version 2.1.2 starting
+1772174283: Config loaded from /mosquitto/config/mosquitto.conf.
+1772174283: Bridge support available.
+1772174283: Persistence support available.
+1772174283: TLS support available.
+1772174283: TLS-PSK support available.
+1772174283: Websockets support available.
+1772174283: Opening ipv4 listen socket on port 1883.
+1772174283: Opening ipv6 listen socket on port 1883.
+1772174283: mosquitto version 2.1.2 running
+1772174286: New connection from 172.19.0.1:41456 on port 1883.
+1772174286: New client connected from 172.19.0.1:41456 as flutter_client_1 (p3, c1, k20).
+1772174555: New connection from 172.19.0.1:49642 on port 1883.
+1772174555: New connection from 172.19.0.1:49640 on port 1883.
+1772174555: New client connected from 172.19.0.1:49642 as sim_device_2 (p4, c1, k60).
+1772174555: New client connected from 172.19.0.1:49640 as sim_device_1 (p4, c1, k60).
+1772174564: mosquitto version 2.1.2 terminating
+1772174564: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772174579: mosquitto version 2.1.2 starting
+1772174579: Config loaded from /mosquitto/config/mosquitto.conf.
+1772174579: Bridge support available.
+1772174579: Persistence support available.
+1772174579: TLS support available.
+1772174579: TLS-PSK support available.
+1772174579: Websockets support available.
+1772174579: Opening ipv4 listen socket on port 1883.
+1772174579: Opening ipv6 listen socket on port 1883.
+1772174579: mosquitto version 2.1.2 running
+1772174579: New connection from 172.19.0.1:46090 on port 1883.
+1772174579: New client connected from 172.19.0.1:46090 as sim_device_2 (p4, c1, k60).
+1772174579: New connection from 172.19.0.1:46106 on port 1883.
+1772174579: New client connected from 172.19.0.1:46106 as sim_device_1 (p4, c1, k60).
+1772174579: New connection from 172.19.0.1:46108 on port 1883.
+1772174579: New client connected from 172.19.0.1:46108 as flutter_client_1 (p3, c1, k20).
+1772174590: Client flutter_client_1 [172.19.0.1:46108] disconnected: connection closed by client.
+1772174591: New connection from 172.19.0.1:46150 on port 1883.
+1772174591: New client connected from 172.19.0.1:46150 as flutter_client_1 (p3, c1, k20).
+1772174609: mosquitto version 2.1.2 terminating
+1772174609: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772174699: mosquitto version 2.1.2 starting
+1772174699: Config loaded from /mosquitto/config/mosquitto.conf.
+1772174699: Bridge support available.
+1772174699: Persistence support available.
+1772174699: TLS support available.
+1772174699: TLS-PSK support available.
+1772174699: Websockets support available.
+1772174699: Opening ipv4 listen socket on port 1883.
+1772174699: Opening ipv6 listen socket on port 1883.
+1772174699: mosquitto version 2.1.2 running
+1772174726: New connection from 172.19.0.1:34904 on port 1883.
+1772174726: New connection from 172.19.0.1:34902 on port 1883.
+1772174726: New client connected from 172.19.0.1:34904 as sim_device_1 (p4, c1, k60).
+1772174726: New client connected from 172.19.0.1:34902 as sim_device_2 (p4, c1, k60).
+1772174736: mosquitto version 2.1.2 terminating
+1772174736: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772174746: mosquitto version 2.1.2 starting
+1772174746: Config loaded from /mosquitto/config/mosquitto.conf.
+1772174746: Bridge support available.
+1772174746: Persistence support available.
+1772174746: TLS support available.
+1772174746: TLS-PSK support available.
+1772174746: Websockets support available.
+1772174746: Opening ipv4 listen socket on port 1883.
+1772174746: Opening ipv6 listen socket on port 1883.
+1772174746: mosquitto version 2.1.2 running
+1772174751: New connection from 172.19.0.1:41224 on port 1883.
+1772174751: New connection from 172.19.0.1:41208 on port 1883.
+1772174751: New client connected from 172.19.0.1:41224 as sim_device_2 (p4, c1, k60).
+1772174751: New client connected from 172.19.0.1:41208 as sim_device_1 (p4, c1, k60).
+1772174843: New connection from 172.19.0.1:35714 on port 1883.
+1772174843: New client connected from 172.19.0.1:35714 as flutter_client_1 (p3, c1, k20).
+1772174899: mosquitto version 2.1.2 terminating
+1772174899: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772176733: mosquitto version 2.1.2 starting
+1772176733: Config loaded from /mosquitto/config/mosquitto.conf.
+1772176733: Bridge support available.
+1772176733: Persistence support available.
+1772176733: TLS support available.
+1772176733: TLS-PSK support available.
+1772176733: Websockets support available.
+1772176733: Opening ipv4 listen socket on port 1883.
+1772176733: Opening ipv6 listen socket on port 1883.
+1772176733: Opening ipv4 listen socket on port 8083.
+1772176733: Opening ipv6 listen socket on port 8083.
+1772176733: mosquitto version 2.1.2 running
+1772176757: mosquitto version 2.1.2 terminating
+1772176757: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772177629: mosquitto version 2.1.2 starting
+1772177629: Config loaded from /mosquitto/config/mosquitto.conf.
+1772177629: Bridge support available.
+1772177629: Persistence support available.
+1772177629: TLS support available.
+1772177629: TLS-PSK support available.
+1772177629: Websockets support available.
+1772177629: Opening ipv4 listen socket on port 1883.
+1772177629: Opening ipv6 listen socket on port 1883.
+1772177629: Opening ipv4 listen socket on port 8083.
+1772177629: Opening ipv6 listen socket on port 8083.
+1772177629: mosquitto version 2.1.2 running
+1772177631: New connection from 172.19.0.1:58352 on port 8083.
+1772177631: Client 172.19.0.1 [172.19.0.1:58352] disconnected: bad socket read/write: Unknown error
+1772177631: New connection from 172.19.0.1:58364 on port 8083.
+1772177631: Client 172.19.0.1 [172.19.0.1:58364] disconnected: bad socket read/write: Unknown error
+1772177636: New connection from 172.19.0.1:58378 on port 8083.
+1772177636: Client 172.19.0.1 [172.19.0.1:58378] disconnected: bad socket read/write: Unknown error
+1772177636: New connection from 172.19.0.1:58386 on port 8083.
+1772177636: Client 172.19.0.1 [172.19.0.1:58386] disconnected: bad socket read/write: Unknown error
+1772177641: New connection from 172.19.0.1:47844 on port 8083.
+1772177641: Client 172.19.0.1 [172.19.0.1:47844] disconnected: bad socket read/write: Unknown error
+1772177641: New connection from 172.19.0.1:47860 on port 8083.
+1772177641: Client 172.19.0.1 [172.19.0.1:47860] disconnected: bad socket read/write: Unknown error
+1772177651: New connection from 172.19.0.1:55810 on port 8083.
+1772177651: Client 172.19.0.1 [172.19.0.1:55810] disconnected: bad socket read/write: Unknown error
+1772177651: New connection from 172.19.0.1:55820 on port 8083.
+1772177651: Client 172.19.0.1 [172.19.0.1:55820] disconnected: bad socket read/write: Unknown error
+1772177656: New connection from 172.19.0.1:55836 on port 8083.
+1772177656: Client 172.19.0.1 [172.19.0.1:55836] disconnected: bad socket read/write: Unknown error
+1772177656: New connection from 172.19.0.1:55838 on port 8083.
+1772177656: Client 172.19.0.1 [172.19.0.1:55838] disconnected: bad socket read/write: Unknown error
+1772177661: New connection from 172.19.0.1:50246 on port 8083.
+1772177661: Client 172.19.0.1 [172.19.0.1:50246] disconnected: bad socket read/write: Unknown error
+1772177661: New connection from 172.19.0.1:50262 on port 8083.
+1772177661: Client 172.19.0.1 [172.19.0.1:50262] disconnected: bad socket read/write: Unknown error
+1772177676: New connection from 172.19.0.1:38574 on port 1883.
+1772177676: New connection from 172.19.0.1:38558 on port 1883.
+1772177676: New client connected from 172.19.0.1:38574 as sim_device_2 (p4, c1, k60).
+1772177676: New client connected from 172.19.0.1:38558 as sim_device_1 (p4, c1, k60).
+1772177698: New connection from 172.19.0.1:59170 on port 8083.
+1772177698: Client 172.19.0.1 [172.19.0.1:59170] disconnected: bad socket read/write: Unknown error
+1772177698: New connection from 172.19.0.1:59184 on port 8083.
+1772177698: Client 172.19.0.1 [172.19.0.1:59184] disconnected: bad socket read/write: Unknown error
+1772177703: New connection from 172.19.0.1:59192 on port 8083.
+1772177703: Client 172.19.0.1 [172.19.0.1:59192] disconnected: bad socket read/write: Unknown error
+1772177703: New connection from 172.19.0.1:59198 on port 8083.
+1772177703: Client 172.19.0.1 [172.19.0.1:59198] disconnected: bad socket read/write: Unknown error
+1772177708: New connection from 172.19.0.1:60866 on port 8083.
+1772177708: Client 172.19.0.1 [172.19.0.1:60866] disconnected: bad socket read/write: Unknown error
+1772177708: New connection from 172.19.0.1:60882 on port 8083.
+1772177708: Client 172.19.0.1 [172.19.0.1:60882] disconnected: bad socket read/write: Unknown error
+1772177718: New connection from 172.19.0.1:38732 on port 8083.
+1772177718: Client 172.19.0.1 [172.19.0.1:38732] disconnected: bad socket read/write: Unknown error
+1772177718: New connection from 172.19.0.1:38738 on port 8083.
+1772177718: Client 172.19.0.1 [172.19.0.1:38738] disconnected: bad socket read/write: Unknown error
+1772177723: New connection from 172.19.0.1:38752 on port 8083.
+1772177723: Client 172.19.0.1 [172.19.0.1:38752] disconnected: bad socket read/write: Unknown error
+1772177723: New connection from 172.19.0.1:38758 on port 8083.
+1772177723: Client 172.19.0.1 [172.19.0.1:38758] disconnected: bad socket read/write: Unknown error
+1772177728: New connection from 172.19.0.1:36730 on port 8083.
+1772177728: Client 172.19.0.1 [172.19.0.1:36730] disconnected: bad socket read/write: Unknown error
+1772177728: New connection from 172.19.0.1:36734 on port 8083.
+1772177728: Client 172.19.0.1 [172.19.0.1:36734] disconnected: bad socket read/write: Unknown error
+1772177738: New connection from 172.19.0.1:46474 on port 8083.
+1772177738: Client 172.19.0.1 [172.19.0.1:46474] disconnected: bad socket read/write: Unknown error
+1772177738: New connection from 172.19.0.1:46482 on port 8083.
+1772177738: Client 172.19.0.1 [172.19.0.1:46482] disconnected: bad socket read/write: Unknown error
+1772177743: New connection from 172.19.0.1:46494 on port 8083.
+1772177743: Client 172.19.0.1 [172.19.0.1:46494] disconnected: bad socket read/write: Unknown error
+1772177743: New connection from 172.19.0.1:46506 on port 8083.
+1772177743: Client 172.19.0.1 [172.19.0.1:46506] disconnected: bad socket read/write: Unknown error
+1772177747: mosquitto version 2.1.2 terminating
+1772177747: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772177804: mosquitto version 2.1.2 starting
+1772177804: Config loaded from /mosquitto/config/mosquitto.conf.
+1772177804: Bridge support available.
+1772177804: Persistence support available.
+1772177804: TLS support available.
+1772177804: TLS-PSK support available.
+1772177804: Websockets support available.
+1772177804: Opening ipv4 listen socket on port 1883.
+1772177804: Opening ipv6 listen socket on port 1883.
+1772177804: Opening ipv4 listen socket on port 8083.
+1772177804: Opening ipv6 listen socket on port 8083.
+1772177804: mosquitto version 2.1.2 running
+1772177808: New connection from 172.20.0.1:45000 on port 8083.
+1772177808: Client 172.20.0.1 [172.20.0.1:45000] disconnected: bad socket read/write: Unknown error
+1772177808: New connection from 172.20.0.1:45012 on port 8083.
+1772177808: Client 172.20.0.1 [172.20.0.1:45012] disconnected: bad socket read/write: Unknown error
+1772177810: New connection from 172.20.0.1:45540 on port 1883.
+1772177810: New client connected from 172.20.0.1:45540 as sim_device_2 (p4, c1, k60).
+1772177810: New connection from 172.20.0.1:45542 on port 1883.
+1772177810: New client connected from 172.20.0.1:45542 as sim_device_1 (p4, c1, k60).
+1772177818: New connection from 172.20.0.1:53126 on port 8083.
+1772177818: Client 172.20.0.1 [172.20.0.1:53126] disconnected: bad socket read/write: Unknown error
+1772177818: New connection from 172.20.0.1:53132 on port 8083.
+1772177818: Client 172.20.0.1 [172.20.0.1:53132] disconnected: bad socket read/write: Unknown error
+1772177823: New connection from 172.20.0.1:53144 on port 8083.
+1772177823: Client 172.20.0.1 [172.20.0.1:53144] disconnected: bad socket read/write: Unknown error
+1772177823: New connection from 172.20.0.1:53148 on port 8083.
+1772177823: Client 172.20.0.1 [172.20.0.1:53148] disconnected: bad socket read/write: Unknown error
+1772177828: New connection from 172.20.0.1:59140 on port 8083.
+1772177828: Client 172.20.0.1 [172.20.0.1:59140] disconnected: bad socket read/write: Unknown error
+1772177828: New connection from 172.20.0.1:59150 on port 8083.
+1772177828: Client 172.20.0.1 [172.20.0.1:59150] disconnected: bad socket read/write: Unknown error
+1772177838: New connection from 172.20.0.1:38784 on port 8083.
+1772177838: Client 172.20.0.1 [172.20.0.1:38784] disconnected: bad socket read/write: Unknown error
+1772177838: New connection from 172.20.0.1:38788 on port 8083.
+1772177838: Client 172.20.0.1 [172.20.0.1:38788] disconnected: bad socket read/write: Unknown error
+1772177871: New connection from 172.20.0.1:48766 on port 8083.
+1772177871: Client 172.20.0.1 [172.20.0.1:48766] disconnected: bad socket read/write: Unknown error
+1772177871: New connection from 172.20.0.1:48770 on port 8083.
+1772177871: Client 172.20.0.1 [172.20.0.1:48770] disconnected: bad socket read/write: Unknown error
+1772177876: New connection from 172.20.0.1:48774 on port 8083.
+1772177876: Client 172.20.0.1 [172.20.0.1:48774] disconnected: bad socket read/write: Unknown error
+1772177876: New connection from 172.20.0.1:48780 on port 8083.
+1772177876: Client 172.20.0.1 [172.20.0.1:48780] disconnected: bad socket read/write: Unknown error
+1772177881: New connection from 172.20.0.1:39144 on port 8083.
+1772177881: Client 172.20.0.1 [172.20.0.1:39144] disconnected: bad socket read/write: Unknown error
+1772177881: New connection from 172.20.0.1:39156 on port 8083.
+1772177881: Client 172.20.0.1 [172.20.0.1:39156] disconnected: bad socket read/write: Unknown error
+1772177891: New connection from 172.20.0.1:37106 on port 8083.
+1772177891: Client 172.20.0.1 [172.20.0.1:37106] disconnected: bad socket read/write: Unknown error
+1772177891: New connection from 172.20.0.1:37116 on port 8083.
+1772177891: Client 172.20.0.1 [172.20.0.1:37116] disconnected: bad socket read/write: Unknown error
+1772177896: New connection from 172.20.0.1:37132 on port 8083.
+1772177896: Client 172.20.0.1 [172.20.0.1:37132] disconnected: bad socket read/write: Unknown error
+1772177896: New connection from 172.20.0.1:37148 on port 8083.
+1772177896: Client 172.20.0.1 [172.20.0.1:37148] disconnected: bad socket read/write: Unknown error
+1772177901: New connection from 172.20.0.1:34580 on port 8083.
+1772177901: Client 172.20.0.1 [172.20.0.1:34580] disconnected: bad socket read/write: Unknown error
+1772177901: New connection from 172.20.0.1:34590 on port 8083.
+1772177901: Client 172.20.0.1 [172.20.0.1:34590] disconnected: bad socket read/write: Unknown error
+1772177911: New connection from 172.20.0.1:55150 on port 8083.
+1772177911: Client 172.20.0.1 [172.20.0.1:55150] disconnected: bad socket read/write: Unknown error
+1772177911: New connection from 172.20.0.1:55156 on port 8083.
+1772177911: Client 172.20.0.1 [172.20.0.1:55156] disconnected: bad socket read/write: Unknown error
+1772177916: New connection from 172.20.0.1:55158 on port 8083.
+1772177916: Client 172.20.0.1 [172.20.0.1:55158] disconnected: bad socket read/write: Unknown error
+1772177916: New connection from 172.20.0.1:55172 on port 8083.
+1772177916: Client 172.20.0.1 [172.20.0.1:55172] disconnected: bad socket read/write: Unknown error
+1772177921: New connection from 172.20.0.1:38662 on port 8083.
+1772177921: Client 172.20.0.1 [172.20.0.1:38662] disconnected: bad socket read/write: Unknown error
+1772177921: New connection from 172.20.0.1:38668 on port 8083.
+1772177921: Client 172.20.0.1 [172.20.0.1:38668] disconnected: bad socket read/write: Unknown error
+1772177931: New connection from 172.20.0.1:35964 on port 8083.
+1772177931: Client 172.20.0.1 [172.20.0.1:35964] disconnected: bad socket read/write: Unknown error
+1772177931: New connection from 172.20.0.1:35980 on port 8083.
+1772177931: Client 172.20.0.1 [172.20.0.1:35980] disconnected: bad socket read/write: Unknown error
+1772177936: New connection from 172.20.0.1:35990 on port 8083.
+1772177936: Client 172.20.0.1 [172.20.0.1:35990] disconnected: bad socket read/write: Unknown error
+1772177936: New connection from 172.20.0.1:36006 on port 8083.
+1772177936: Client 172.20.0.1 [172.20.0.1:36006] disconnected: bad socket read/write: Unknown error
+1772177941: New connection from 172.20.0.1:36846 on port 8083.
+1772177941: Client 172.20.0.1 [172.20.0.1:36846] disconnected: bad socket read/write: Unknown error
+1772177941: New connection from 172.20.0.1:36858 on port 8083.
+1772177941: Client 172.20.0.1 [172.20.0.1:36858] disconnected: bad socket read/write: Unknown error
+1772177951: New connection from 172.20.0.1:56930 on port 8083.
+1772177951: Client 172.20.0.1 [172.20.0.1:56930] disconnected: bad socket read/write: Unknown error
+1772177951: New connection from 172.20.0.1:56934 on port 8083.
+1772177951: Client 172.20.0.1 [172.20.0.1:56934] disconnected: bad socket read/write: Unknown error
+1772177956: New connection from 172.20.0.1:56942 on port 8083.
+1772177956: Client 172.20.0.1 [172.20.0.1:56942] disconnected: bad socket read/write: Unknown error
+1772177956: New connection from 172.20.0.1:56948 on port 8083.
+1772177956: Client 172.20.0.1 [172.20.0.1:56948] disconnected: bad socket read/write: Unknown error
+1772177961: New connection from 172.20.0.1:36790 on port 8083.
+1772177961: Client 172.20.0.1 [172.20.0.1:36790] disconnected: bad socket read/write: Unknown error
+1772177961: New connection from 172.20.0.1:36794 on port 8083.
+1772177961: Client 172.20.0.1 [172.20.0.1:36794] disconnected: bad socket read/write: Unknown error
+1772177971: New connection from 172.20.0.1:46966 on port 8083.
+1772177971: Client 172.20.0.1 [172.20.0.1:46966] disconnected: bad socket read/write: Unknown error
+1772177971: New connection from 172.20.0.1:46972 on port 8083.
+1772177971: Client 172.20.0.1 [172.20.0.1:46972] disconnected: bad socket read/write: Unknown error
+1772177976: New connection from 172.20.0.1:46982 on port 8083.
+1772177976: Client 172.20.0.1 [172.20.0.1:46982] disconnected: bad socket read/write: Unknown error
+1772177976: New connection from 172.20.0.1:46994 on port 8083.
+1772177976: Client 172.20.0.1 [172.20.0.1:46994] disconnected: bad socket read/write: Unknown error
+1772177981: New connection from 172.20.0.1:54416 on port 8083.
+1772177981: Client 172.20.0.1 [172.20.0.1:54416] disconnected: bad socket read/write: Unknown error
+1772177981: New connection from 172.20.0.1:54420 on port 8083.
+1772177981: Client 172.20.0.1 [172.20.0.1:54420] disconnected: bad socket read/write: Unknown error
+1772177991: New connection from 172.20.0.1:36598 on port 8083.
+1772177991: Client 172.20.0.1 [172.20.0.1:36598] disconnected: bad socket read/write: Unknown error
+1772177991: New connection from 172.20.0.1:36602 on port 8083.
+1772177991: Client 172.20.0.1 [172.20.0.1:36602] disconnected: bad socket read/write: Unknown error
+1772177996: New connection from 172.20.0.1:36606 on port 8083.
+1772177996: Client 172.20.0.1 [172.20.0.1:36606] disconnected: bad socket read/write: Unknown error
+1772177996: New connection from 172.20.0.1:36610 on port 8083.
+1772177996: Client 172.20.0.1 [172.20.0.1:36610] disconnected: bad socket read/write: Unknown error
+1772178001: New connection from 172.20.0.1:40906 on port 8083.
+1772178001: Client 172.20.0.1 [172.20.0.1:40906] disconnected: bad socket read/write: Unknown error
+1772178001: New connection from 172.20.0.1:40918 on port 8083.
+1772178001: Client 172.20.0.1 [172.20.0.1:40918] disconnected: bad socket read/write: Unknown error
+1772178010: Client sim_device_1 [172.20.0.1:45542] disconnected: connection closed by client.
+1772178010: Client sim_device_2 [172.20.0.1:45540] disconnected: connection closed by client.
+1772178050: New connection from 172.20.0.1:35498 on port 8083.
+1772178050: Client 172.20.0.1 [172.20.0.1:35498] disconnected: bad socket read/write: Unknown error
+1772178050: New connection from 172.20.0.1:35508 on port 8083.
+1772178050: Client 172.20.0.1 [172.20.0.1:35508] disconnected: bad socket read/write: Unknown error
+1772178055: New connection from 172.20.0.1:35522 on port 8083.
+1772178055: Client 172.20.0.1 [172.20.0.1:35522] disconnected: bad socket read/write: Unknown error
+1772178055: New connection from 172.20.0.1:35534 on port 8083.
+1772178055: Client 172.20.0.1 [172.20.0.1:35534] disconnected: bad socket read/write: Unknown error
+1772178060: New connection from 172.20.0.1:58752 on port 8083.
+1772178060: Client 172.20.0.1 [172.20.0.1:58752] disconnected: bad socket read/write: Unknown error
+1772178060: New connection from 172.20.0.1:58756 on port 8083.
+1772178060: Client 172.20.0.1 [172.20.0.1:58756] disconnected: bad socket read/write: Unknown error
+1772178070: New connection from 172.20.0.1:59106 on port 8083.
+1772178070: Client 172.20.0.1 [172.20.0.1:59106] disconnected: bad socket read/write: Unknown error
+1772178070: New connection from 172.20.0.1:59122 on port 8083.
+1772178070: Client 172.20.0.1 [172.20.0.1:59122] disconnected: bad socket read/write: Unknown error
+1772178075: New connection from 172.20.0.1:59134 on port 8083.
+1772178075: Client 172.20.0.1 [172.20.0.1:59134] disconnected: bad socket read/write: Unknown error
+1772178075: New connection from 172.20.0.1:59148 on port 8083.
+1772178075: Client 172.20.0.1 [172.20.0.1:59148] disconnected: bad socket read/write: Unknown error
+1772178080: New connection from 172.20.0.1:41798 on port 8083.
+1772178080: Client 172.20.0.1 [172.20.0.1:41798] disconnected: bad socket read/write: Unknown error
+1772178080: New connection from 172.20.0.1:41806 on port 8083.
+1772178080: Client 172.20.0.1 [172.20.0.1:41806] disconnected: bad socket read/write: Unknown error
+1772178090: New connection from 172.20.0.1:39128 on port 8083.
+1772178090: Client 172.20.0.1 [172.20.0.1:39128] disconnected: bad socket read/write: Unknown error
+1772178090: New connection from 172.20.0.1:39138 on port 8083.
+1772178090: Client 172.20.0.1 [172.20.0.1:39138] disconnected: bad socket read/write: Unknown error
+1772178095: New connection from 172.20.0.1:39144 on port 8083.
+1772178095: Client 172.20.0.1 [172.20.0.1:39144] disconnected: bad socket read/write: Unknown error
+1772178095: New connection from 172.20.0.1:39146 on port 8083.
+1772178095: Client 172.20.0.1 [172.20.0.1:39146] disconnected: bad socket read/write: Unknown error
+1772178100: New connection from 172.20.0.1:54054 on port 8083.
+1772178100: Client 172.20.0.1 [172.20.0.1:54054] disconnected: bad socket read/write: Unknown error
+1772178100: New connection from 172.20.0.1:54070 on port 8083.
+1772178100: Client 172.20.0.1 [172.20.0.1:54070] disconnected: bad socket read/write: Unknown error
+1772178110: New connection from 172.20.0.1:57050 on port 8083.
+1772178110: Client 172.20.0.1 [172.20.0.1:57050] disconnected: bad socket read/write: Unknown error
+1772178110: New connection from 172.20.0.1:57054 on port 8083.
+1772178110: Client 172.20.0.1 [172.20.0.1:57054] disconnected: bad socket read/write: Unknown error
+1772178115: New connection from 172.20.0.1:57064 on port 8083.
+1772178115: Client 172.20.0.1 [172.20.0.1:57064] disconnected: bad socket read/write: Unknown error
+1772178115: New connection from 172.20.0.1:57074 on port 8083.
+1772178115: Client 172.20.0.1 [172.20.0.1:57074] disconnected: bad socket read/write: Unknown error
+1772178120: New connection from 172.20.0.1:37882 on port 8083.
+1772178120: Client 172.20.0.1 [172.20.0.1:37882] disconnected: bad socket read/write: Unknown error
+1772178120: New connection from 172.20.0.1:37898 on port 8083.
+1772178120: Client 172.20.0.1 [172.20.0.1:37898] disconnected: bad socket read/write: Unknown error
+1772178130: New connection from 172.20.0.1:38370 on port 8083.
+1772178130: Client 172.20.0.1 [172.20.0.1:38370] disconnected: bad socket read/write: Unknown error
+1772178130: New connection from 172.20.0.1:38376 on port 8083.
+1772178130: Client 172.20.0.1 [172.20.0.1:38376] disconnected: bad socket read/write: Unknown error
+1772178135: New connection from 172.20.0.1:38388 on port 8083.
+1772178135: Client 172.20.0.1 [172.20.0.1:38388] disconnected: bad socket read/write: Unknown error
+1772178135: New connection from 172.20.0.1:38404 on port 8083.
+1772178135: Client 172.20.0.1 [172.20.0.1:38404] disconnected: bad socket read/write: Unknown error
+1772178140: New connection from 172.20.0.1:42972 on port 8083.
+1772178140: Client 172.20.0.1 [172.20.0.1:42972] disconnected: bad socket read/write: Unknown error
+1772178140: New connection from 172.20.0.1:42986 on port 8083.
+1772178140: Client 172.20.0.1 [172.20.0.1:42986] disconnected: bad socket read/write: Unknown error
+1772178150: New connection from 172.20.0.1:45408 on port 8083.
+1772178150: Client 172.20.0.1 [172.20.0.1:45408] disconnected: bad socket read/write: Unknown error
+1772178150: New connection from 172.20.0.1:45414 on port 8083.
+1772178150: Client 172.20.0.1 [172.20.0.1:45414] disconnected: bad socket read/write: Unknown error
+1772178155: New connection from 172.20.0.1:45430 on port 8083.
+1772178155: Client 172.20.0.1 [172.20.0.1:45430] disconnected: bad socket read/write: Unknown error
+1772178155: New connection from 172.20.0.1:45434 on port 8083.
+1772178155: Client 172.20.0.1 [172.20.0.1:45434] disconnected: bad socket read/write: Unknown error
+1772178160: New connection from 172.20.0.1:53916 on port 8083.
+1772178160: Client 172.20.0.1 [172.20.0.1:53916] disconnected: bad socket read/write: Unknown error
+1772178160: New connection from 172.20.0.1:53926 on port 8083.
+1772178160: Client 172.20.0.1 [172.20.0.1:53926] disconnected: bad socket read/write: Unknown error
+1772178170: New connection from 172.20.0.1:53492 on port 8083.
+1772178170: Client 172.20.0.1 [172.20.0.1:53492] disconnected: bad socket read/write: Unknown error
+1772178170: New connection from 172.20.0.1:53504 on port 8083.
+1772178170: Client 172.20.0.1 [172.20.0.1:53504] disconnected: bad socket read/write: Unknown error
+1772178175: New connection from 172.20.0.1:53514 on port 8083.
+1772178175: Client 172.20.0.1 [172.20.0.1:53514] disconnected: bad socket read/write: Unknown error
+1772178175: New connection from 172.20.0.1:53522 on port 8083.
+1772178175: Client 172.20.0.1 [172.20.0.1:53522] disconnected: bad socket read/write: Unknown error
+1772178180: New connection from 172.20.0.1:53196 on port 8083.
+1772178180: Client 172.20.0.1 [172.20.0.1:53196] disconnected: bad socket read/write: Unknown error
+1772178180: New connection from 172.20.0.1:53200 on port 8083.
+1772178180: Client 172.20.0.1 [172.20.0.1:53200] disconnected: bad socket read/write: Unknown error
+1772178190: New connection from 172.20.0.1:53156 on port 8083.
+1772178190: Client 172.20.0.1 [172.20.0.1:53156] disconnected: bad socket read/write: Unknown error
+1772178190: New connection from 172.20.0.1:53170 on port 8083.
+1772178190: Client 172.20.0.1 [172.20.0.1:53170] disconnected: bad socket read/write: Unknown error
+1772178195: New connection from 172.20.0.1:53174 on port 8083.
+1772178195: Client 172.20.0.1 [172.20.0.1:53174] disconnected: bad socket read/write: Unknown error
+1772178195: New connection from 172.20.0.1:53184 on port 8083.
+1772178195: Client 172.20.0.1 [172.20.0.1:53184] disconnected: bad socket read/write: Unknown error
+1772178200: New connection from 172.20.0.1:47196 on port 8083.
+1772178200: Client 172.20.0.1 [172.20.0.1:47196] disconnected: bad socket read/write: Unknown error
+1772178200: New connection from 172.20.0.1:47202 on port 8083.
+1772178200: Client 172.20.0.1 [172.20.0.1:47202] disconnected: bad socket read/write: Unknown error
+1772178210: New connection from 172.20.0.1:47918 on port 8083.
+1772178210: Client 172.20.0.1 [172.20.0.1:47918] disconnected: bad socket read/write: Unknown error
+1772178210: New connection from 172.20.0.1:47932 on port 8083.
+1772178210: Client 172.20.0.1 [172.20.0.1:47932] disconnected: bad socket read/write: Unknown error
+1772178216: New connection from 172.20.0.1:47948 on port 8083.
+1772178216: Client 172.20.0.1 [172.20.0.1:47948] disconnected: bad socket read/write: Unknown error
+1772178216: New connection from 172.20.0.1:47958 on port 8083.
+1772178216: Client 172.20.0.1 [172.20.0.1:47958] disconnected: bad socket read/write: Unknown error
+1772178222: New connection from 172.20.0.1:34098 on port 8083.
+1772178222: Client 172.20.0.1 [172.20.0.1:34098] disconnected: bad socket read/write: Unknown error
+1772178222: New connection from 172.20.0.1:34114 on port 8083.
+1772178222: Client 172.20.0.1 [172.20.0.1:34114] disconnected: bad socket read/write: Unknown error
+1772178231: New connection from 172.20.0.1:40558 on port 8083.
+1772178231: Client 172.20.0.1 [172.20.0.1:40558] disconnected: bad socket read/write: Unknown error
+1772178231: New connection from 172.20.0.1:40572 on port 8083.
+1772178231: Client 172.20.0.1 [172.20.0.1:40572] disconnected: bad socket read/write: Unknown error
+1772178237: New connection from 172.20.0.1:51674 on port 8083.
+1772178237: Client 172.20.0.1 [172.20.0.1:51674] disconnected: bad socket read/write: Unknown error
+1772178237: New connection from 172.20.0.1:51682 on port 8083.
+1772178237: Client 172.20.0.1 [172.20.0.1:51682] disconnected: bad socket read/write: Unknown error
+1772178244: New connection from 172.20.0.1:51684 on port 8083.
+1772178244: Client 172.20.0.1 [172.20.0.1:51684] disconnected: bad socket read/write: Unknown error
+1772178244: New connection from 172.20.0.1:51694 on port 8083.
+1772178244: Client 172.20.0.1 [172.20.0.1:51694] disconnected: bad socket read/write: Unknown error
+1772178252: New connection from 172.20.0.1:35938 on port 8083.
+1772178252: Client 172.20.0.1 [172.20.0.1:35938] disconnected: bad socket read/write: Unknown error
+1772178253: New connection from 172.20.0.1:35942 on port 8083.
+1772178253: Client 172.20.0.1 [172.20.0.1:35942] disconnected: bad socket read/write: Unknown error
+1772178254: New connection from 172.20.0.1:35456 on port 1883.
+1772178254: New connection from 172.20.0.1:35472 on port 1883.
+1772178254: New client connected from 172.20.0.1:35456 as sim_device_2 (p4, c1, k60).
+1772178254: New client connected from 172.20.0.1:35472 as sim_device_1 (p4, c1, k60).
+1772178261: New connection from 172.20.0.1:56998 on port 8083.
+1772178261: Client 172.20.0.1 [172.20.0.1:56998] disconnected: bad socket read/write: Unknown error
+1772178261: New connection from 172.20.0.1:57010 on port 8083.
+1772178261: Client 172.20.0.1 [172.20.0.1:57010] disconnected: bad socket read/write: Unknown error
+1772178268: New connection from 172.20.0.1:60330 on port 8083.
+1772178268: Client 172.20.0.1 [172.20.0.1:60330] disconnected: bad socket read/write: Unknown error
+1772178268: New connection from 172.20.0.1:60338 on port 8083.
+1772178268: Client 172.20.0.1 [172.20.0.1:60338] disconnected: bad socket read/write: Unknown error
+1772178279: New connection from 172.20.0.1:36494 on port 8083.
+1772178279: Client 172.20.0.1 [172.20.0.1:36494] disconnected: bad socket read/write: Unknown error
+1772178280: New connection from 172.20.0.1:36506 on port 8083.
+1772178280: Client 172.20.0.1 [172.20.0.1:36506] disconnected: bad socket read/write: Unknown error
+1772178289: New connection from 172.20.0.1:57382 on port 8083.
+1772178289: Client 172.20.0.1 [172.20.0.1:57382] disconnected: bad socket read/write: Unknown error
+1772178289: New connection from 172.20.0.1:57386 on port 8083.
+1772178289: Client 172.20.0.1 [172.20.0.1:57386] disconnected: bad socket read/write: Unknown error
+1772178295: New connection from 172.20.0.1:57390 on port 8083.
+1772178295: Client 172.20.0.1 [172.20.0.1:57390] disconnected: bad socket read/write: Unknown error
+1772178295: New connection from 172.20.0.1:57404 on port 8083.
+1772178295: Client 172.20.0.1 [172.20.0.1:57404] disconnected: bad socket read/write: Unknown error
+1772178309: New connection from 172.20.0.1:42752 on port 8083.
+1772178309: Client 172.20.0.1 [172.20.0.1:42752] disconnected: bad socket read/write: Unknown error
+1772178309: New connection from 172.20.0.1:42764 on port 8083.
+1772178309: Client 172.20.0.1 [172.20.0.1:42764] disconnected: bad socket read/write: Unknown error
+1772178316: New connection from 172.20.0.1:42776 on port 8083.
+1772178316: Client 172.20.0.1 [172.20.0.1:42776] disconnected: bad socket read/write: Unknown error
+1772178316: New connection from 172.20.0.1:42788 on port 8083.
+1772178316: Client 172.20.0.1 [172.20.0.1:42788] disconnected: bad socket read/write: Unknown error
+1772178325: New connection from 172.20.0.1:32798 on port 8083.
+1772178325: Client 172.20.0.1 [172.20.0.1:32798] disconnected: bad socket read/write: Unknown error
+1772178325: New connection from 172.20.0.1:32804 on port 8083.
+1772178325: Client 172.20.0.1 [172.20.0.1:32804] disconnected: bad socket read/write: Unknown error
+1772178334: New connection from 172.20.0.1:59056 on port 8083.
+1772178334: Client 172.20.0.1 [172.20.0.1:59056] disconnected: bad socket read/write: Unknown error
+1772178334: New connection from 172.20.0.1:59064 on port 8083.
+1772178334: Client 172.20.0.1 [172.20.0.1:59064] disconnected: bad socket read/write: Unknown error
+1772178343: New connection from 172.20.0.1:42528 on port 8083.
+1772178343: Client 172.20.0.1 [172.20.0.1:42528] disconnected: bad socket read/write: Unknown error
+1772178343: New connection from 172.20.0.1:42536 on port 8083.
+1772178343: Client 172.20.0.1 [172.20.0.1:42536] disconnected: bad socket read/write: Unknown error
+1772178666: mosquitto version 2.1.2 terminating
+1772178666: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772178681: mosquitto version 2.1.2 starting
+1772178681: Config loaded from /mosquitto/config/mosquitto.conf.
+1772178681: Bridge support available.
+1772178681: Persistence support available.
+1772178681: TLS support available.
+1772178681: TLS-PSK support available.
+1772178681: Websockets support available.
+1772178681: Opening ipv4 listen socket on port 1883.
+1772178681: Opening ipv6 listen socket on port 1883.
+1772178681: mosquitto version 2.1.2 running
+1772178697: New connection from 172.20.0.1:33778 on port 1883.
+1772178697: New connection from 172.20.0.1:33776 on port 1883.
+1772178697: New client connected from 172.20.0.1:33778 as sim_device_1 (p4, c1, k60).
+1772178697: New client connected from 172.20.0.1:33776 as sim_device_2 (p4, c1, k60).
+1772178757: Client sim_device_2 [172.20.0.1:33776] disconnected: connection closed by client.
+1772178757: Client sim_device_1 [172.20.0.1:33778] disconnected: connection closed by client.
+1772180482: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772181095: New connection from 172.20.0.1:33154 on port 1883.
+1772181095: New client connected from 172.20.0.1:33154 as flutter_client_1 (p3, c1, k20).
+1772181103: Client flutter_client_1 [172.20.0.1:33154] disconnected: connection closed by client.
+1772181123: mosquitto version 2.1.2 terminating
+1772181123: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772181248: mosquitto version 2.1.2 starting
+1772181248: Config loaded from /mosquitto/config/mosquitto.conf.
+1772181248: Bridge support available.
+1772181248: Persistence support available.
+1772181248: TLS support available.
+1772181248: TLS-PSK support available.
+1772181248: Websockets support available.
+1772181248: Opening ipv4 listen socket on port 1883.
+1772181248: Opening ipv6 listen socket on port 1883.
+1772181248: Opening ipv4 listen socket on port 8083.
+1772181248: Opening ipv6 listen socket on port 8083.
+1772181248: mosquitto version 2.1.2 running
+1772181381: mosquitto version 2.1.2 terminating
+1772181381: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772181381: mosquitto version 2.1.2 starting
+1772181381: Config loaded from /mosquitto/config/mosquitto.conf.
+1772181381: Bridge support available.
+1772181381: Persistence support available.
+1772181381: TLS support available.
+1772181381: TLS-PSK support available.
+1772181381: Websockets support available.
+1772181381: Opening ipv4 listen socket on port 1883.
+1772181381: Opening ipv6 listen socket on port 1883.
+1772181381: mosquitto version 2.1.2 running
+1772181387: mosquitto version 2.1.2 terminating
+1772181387: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772181387: mosquitto version 2.1.2 starting
+1772181387: Config loaded from /mosquitto/config/mosquitto.conf.
+1772181387: Bridge support available.
+1772181387: Persistence support available.
+1772181387: TLS support available.
+1772181387: TLS-PSK support available.
+1772181387: Websockets support available.
+1772181387: Opening ipv4 listen socket on port 1883.
+1772181387: Opening ipv6 listen socket on port 1883.
+1772181387: mosquitto version 2.1.2 running
+1772181389: mosquitto version 2.1.2 terminating
+1772181389: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772181392: mosquitto version 2.1.2 starting
+1772181392: Config loaded from /mosquitto/config/mosquitto.conf.
+1772181392: Bridge support available.
+1772181392: Persistence support available.
+1772181392: TLS support available.
+1772181392: TLS-PSK support available.
+1772181392: Websockets support available.
+1772181392: Opening ipv4 listen socket on port 1883.
+1772181392: Opening ipv6 listen socket on port 1883.
+1772181392: mosquitto version 2.1.2 running
+1772181564: New connection from 172.20.0.1:39832 on port 1883.
+1772181564: New client connected from 172.20.0.1:39832 as flutter_client_1 (p3, c1, k20).
+1772181669: Client flutter_client_1 [172.20.0.1:39832] disconnected: connection closed by client.
+1772181698: mosquitto version 2.1.2 terminating
+1772181698: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772181698: mosquitto version 2.1.2 starting
+1772181698: Config loaded from /mosquitto/config/mosquitto.conf.
+1772181698: Bridge support available.
+1772181698: Persistence support available.
+1772181698: TLS support available.
+1772181698: TLS-PSK support available.
+1772181698: Websockets support available.
+1772181698: Opening ipv4 listen socket on port 1883.
+1772181698: Opening ipv6 listen socket on port 1883.
+1772181698: Opening ipv4 listen socket on port 8083.
+1772181698: Opening ipv6 listen socket on port 8083.
+1772181698: mosquitto version 2.1.2 running
+1772181701: mosquitto version 2.1.2 terminating
+1772181701: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772181703: mosquitto version 2.1.2 starting
+1772181703: Config loaded from /mosquitto/config/mosquitto.conf.
+1772181703: Bridge support available.
+1772181703: Persistence support available.
+1772181703: TLS support available.
+1772181703: TLS-PSK support available.
+1772181703: Websockets support available.
+1772181703: Opening ipv4 listen socket on port 1883.
+1772181703: Opening ipv6 listen socket on port 1883.
+1772181703: Opening ipv4 listen socket on port 8083.
+1772181703: Opening ipv6 listen socket on port 8083.
+1772181703: mosquitto version 2.1.2 running
+1772181724: mosquitto version 2.1.2 terminating
+1772181724: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772181738: mosquitto version 2.1.2 starting
+1772181738: Config loaded from /mosquitto/config/mosquitto.conf.
+1772181738: Bridge support available.
+1772181738: Persistence support available.
+1772181738: TLS support available.
+1772181738: TLS-PSK support available.
+1772181738: Websockets support available.
+1772181738: Opening ipv4 listen socket on port 1883.
+1772181738: Opening ipv6 listen socket on port 1883.
+1772181738: mosquitto version 2.1.2 running
+1772182070: mosquitto version 2.1.2 terminating
+1772182070: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772182071: mosquitto version 2.1.2 starting
+1772182071: Config loaded from /mosquitto/config/mosquitto.conf.
+1772182071: Bridge support available.
+1772182071: Persistence support available.
+1772182071: TLS support available.
+1772182071: TLS-PSK support available.
+1772182071: Websockets support available.
+1772182071: Opening ipv4 listen socket on port 1883.
+1772182071: Opening ipv6 listen socket on port 1883.
+1772182071: Opening ipv4 listen socket on port 8083.
+1772182071: Opening ipv6 listen socket on port 8083.
+1772182071: mosquitto version 2.1.2 running
+1772182162: mosquitto version 2.1.2 terminating
+1772182162: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772183455: mosquitto version 2.1.2 starting
+1772183455: Config loaded from /mosquitto/config/mosquitto.conf.
+1772183455: Bridge support available.
+1772183455: Persistence support available.
+1772183455: TLS support available.
+1772183455: TLS-PSK support available.
+1772183455: Websockets support available.
+1772183455: Opening ipv4 listen socket on port 1883.
+1772183455: Opening ipv6 listen socket on port 1883.
+1772183455: Opening ipv4 listen socket on port 8083.
+1772183455: Opening ipv6 listen socket on port 8083.
+1772183455: mosquitto version 2.1.2 running
+1772184126: New connection from 172.20.0.1:56828 on port 1883.
+1772184126: New client connected from 172.20.0.1:56828 as flutter_client_1 (p3, c1, k20).
+1772184132: Client flutter_client_1 [172.20.0.1:56828] disconnected: connection closed by client.
+1772184711: New connection from 172.20.0.1:39854 on port 1883.
+1772184711: New client connected from 172.20.0.1:39854 as flutter_client_1 (p3, c1, k20).
+1772184785: Client flutter_client_1 [172.20.0.1:39854] disconnected: connection closed by client.
+1772184821: New connection from 172.20.0.1:55256 on port 1883.
+1772184821: Protocol error from 172.20.0.1:55256: First packet not CONNECT (47).
+1772184821: Client 172.20.0.1 [172.20.0.1:55256] disconnected: protocol error.
+1772184826: New connection from 172.20.0.1:55272 on port 1883.
+1772184826: Protocol error from 172.20.0.1:55272: First packet not CONNECT (47).
+1772184826: Client 172.20.0.1 [172.20.0.1:55272] disconnected: protocol error.
+1772184831: New connection from 172.20.0.1:52868 on port 1883.
+1772184831: Protocol error from 172.20.0.1:52868: First packet not CONNECT (47).
+1772184831: Client 172.20.0.1 [172.20.0.1:52868] disconnected: protocol error.
+1772184841: New connection from 172.20.0.1:34792 on port 1883.
+1772184841: Protocol error from 172.20.0.1:34792: First packet not CONNECT (47).
+1772184841: Client 172.20.0.1 [172.20.0.1:34792] disconnected: protocol error.
+1772184846: New connection from 172.20.0.1:34806 on port 1883.
+1772184846: Protocol error from 172.20.0.1:34806: First packet not CONNECT (47).
+1772184846: Client 172.20.0.1 [172.20.0.1:34806] disconnected: protocol error.
+1772184851: New connection from 172.20.0.1:35580 on port 1883.
+1772184851: Protocol error from 172.20.0.1:35580: First packet not CONNECT (47).
+1772184851: Client 172.20.0.1 [172.20.0.1:35580] disconnected: protocol error.
+1772184918: New connection from 172.20.0.1:47396 on port 1883.
+1772184918: Protocol error from 172.20.0.1:47396: First packet not CONNECT (47).
+1772184918: Client 172.20.0.1 [172.20.0.1:47396] disconnected: protocol error.
+1772184923: New connection from 172.20.0.1:47398 on port 1883.
+1772184923: Protocol error from 172.20.0.1:47398: First packet not CONNECT (47).
+1772184923: Client 172.20.0.1 [172.20.0.1:47398] disconnected: protocol error.
+1772184928: New connection from 172.20.0.1:57438 on port 1883.
+1772184928: Protocol error from 172.20.0.1:57438: First packet not CONNECT (47).
+1772184928: Client 172.20.0.1 [172.20.0.1:57438] disconnected: protocol error.
+1772184938: New connection from 172.20.0.1:33330 on port 1883.
+1772184938: Protocol error from 172.20.0.1:33330: First packet not CONNECT (47).
+1772184938: Client 172.20.0.1 [172.20.0.1:33330] disconnected: protocol error.
+1772184943: New connection from 172.20.0.1:33336 on port 1883.
+1772184943: Protocol error from 172.20.0.1:33336: First packet not CONNECT (47).
+1772184943: Client 172.20.0.1 [172.20.0.1:33336] disconnected: protocol error.
+1772184948: New connection from 172.20.0.1:60606 on port 1883.
+1772184948: Protocol error from 172.20.0.1:60606: First packet not CONNECT (47).
+1772184948: Client 172.20.0.1 [172.20.0.1:60606] disconnected: protocol error.
+1772184958: New connection from 172.20.0.1:57268 on port 1883.
+1772184958: Protocol error from 172.20.0.1:57268: First packet not CONNECT (47).
+1772184958: Client 172.20.0.1 [172.20.0.1:57268] disconnected: protocol error.
+1772184963: New connection from 172.20.0.1:57274 on port 1883.
+1772184963: Protocol error from 172.20.0.1:57274: First packet not CONNECT (47).
+1772184963: Client 172.20.0.1 [172.20.0.1:57274] disconnected: protocol error.
+1772184968: New connection from 172.20.0.1:43080 on port 1883.
+1772184968: Protocol error from 172.20.0.1:43080: First packet not CONNECT (47).
+1772184968: Client 172.20.0.1 [172.20.0.1:43080] disconnected: protocol error.
+1772184978: New connection from 172.20.0.1:39578 on port 1883.
+1772184978: Protocol error from 172.20.0.1:39578: First packet not CONNECT (47).
+1772184978: Client 172.20.0.1 [172.20.0.1:39578] disconnected: protocol error.
+1772184983: New connection from 172.20.0.1:39580 on port 1883.
+1772184983: Protocol error from 172.20.0.1:39580: First packet not CONNECT (47).
+1772184983: Client 172.20.0.1 [172.20.0.1:39580] disconnected: protocol error.
+1772184988: New connection from 172.20.0.1:59710 on port 1883.
+1772184988: Protocol error from 172.20.0.1:59710: First packet not CONNECT (47).
+1772184988: Client 172.20.0.1 [172.20.0.1:59710] disconnected: protocol error.
+1772184998: New connection from 172.20.0.1:52990 on port 1883.
+1772184998: Protocol error from 172.20.0.1:52990: First packet not CONNECT (47).
+1772184998: Client 172.20.0.1 [172.20.0.1:52990] disconnected: protocol error.
+1772185055: New connection from 172.20.0.1:58600 on port 1883.
+1772185055: Protocol error from 172.20.0.1:58600: First packet not CONNECT (47).
+1772185055: Client 172.20.0.1 [172.20.0.1:58600] disconnected: protocol error.
+1772185060: New connection from 172.20.0.1:46054 on port 1883.
+1772185060: Protocol error from 172.20.0.1:46054: First packet not CONNECT (47).
+1772185060: Client 172.20.0.1 [172.20.0.1:46054] disconnected: protocol error.
+1772185065: New connection from 172.20.0.1:46056 on port 1883.
+1772185065: Protocol error from 172.20.0.1:46056: First packet not CONNECT (47).
+1772185065: Client 172.20.0.1 [172.20.0.1:46056] disconnected: protocol error.
+1772185075: New connection from 172.20.0.1:41400 on port 1883.
+1772185075: Protocol error from 172.20.0.1:41400: First packet not CONNECT (47).
+1772185075: Client 172.20.0.1 [172.20.0.1:41400] disconnected: protocol error.
+1772185080: New connection from 172.20.0.1:33662 on port 1883.
+1772185080: Protocol error from 172.20.0.1:33662: First packet not CONNECT (47).
+1772185080: Client 172.20.0.1 [172.20.0.1:33662] disconnected: protocol error.
+1772185085: New connection from 172.20.0.1:33676 on port 1883.
+1772185085: Protocol error from 172.20.0.1:33676: First packet not CONNECT (47).
+1772185085: Client 172.20.0.1 [172.20.0.1:33676] disconnected: protocol error.
+1772185095: New connection from 172.20.0.1:34612 on port 1883.
+1772185095: Protocol error from 172.20.0.1:34612: First packet not CONNECT (47).
+1772185095: Client 172.20.0.1 [172.20.0.1:34612] disconnected: protocol error.
+1772185100: New connection from 172.20.0.1:46702 on port 1883.
+1772185100: Protocol error from 172.20.0.1:46702: First packet not CONNECT (47).
+1772185100: Client 172.20.0.1 [172.20.0.1:46702] disconnected: protocol error.
+1772185105: New connection from 172.20.0.1:46708 on port 1883.
+1772185105: Protocol error from 172.20.0.1:46708: First packet not CONNECT (47).
+1772185105: Client 172.20.0.1 [172.20.0.1:46708] disconnected: protocol error.
+1772185115: New connection from 172.20.0.1:50896 on port 1883.
+1772185115: Protocol error from 172.20.0.1:50896: First packet not CONNECT (47).
+1772185115: Client 172.20.0.1 [172.20.0.1:50896] disconnected: protocol error.
+1772185120: New connection from 172.20.0.1:38326 on port 1883.
+1772185120: Protocol error from 172.20.0.1:38326: First packet not CONNECT (47).
+1772185120: Client 172.20.0.1 [172.20.0.1:38326] disconnected: protocol error.
+1772185125: New connection from 172.20.0.1:38342 on port 1883.
+1772185125: Protocol error from 172.20.0.1:38342: First packet not CONNECT (47).
+1772185125: Client 172.20.0.1 [172.20.0.1:38342] disconnected: protocol error.
+1772185135: New connection from 172.20.0.1:50380 on port 1883.
+1772185135: Protocol error from 172.20.0.1:50380: First packet not CONNECT (47).
+1772185135: Client 172.20.0.1 [172.20.0.1:50380] disconnected: protocol error.
+1772185140: New connection from 172.20.0.1:41604 on port 1883.
+1772185140: Protocol error from 172.20.0.1:41604: First packet not CONNECT (47).
+1772185140: Client 172.20.0.1 [172.20.0.1:41604] disconnected: protocol error.
+1772185145: New connection from 172.20.0.1:41612 on port 1883.
+1772185145: Protocol error from 172.20.0.1:41612: First packet not CONNECT (47).
+1772185145: Client 172.20.0.1 [172.20.0.1:41612] disconnected: protocol error.
+1772185155: New connection from 172.20.0.1:54284 on port 1883.
+1772185155: Protocol error from 172.20.0.1:54284: First packet not CONNECT (47).
+1772185155: Client 172.20.0.1 [172.20.0.1:54284] disconnected: protocol error.
+1772185160: New connection from 172.20.0.1:36848 on port 1883.
+1772185160: Protocol error from 172.20.0.1:36848: First packet not CONNECT (47).
+1772185160: Client 172.20.0.1 [172.20.0.1:36848] disconnected: protocol error.
+1772185165: New connection from 172.20.0.1:36864 on port 1883.
+1772185165: Protocol error from 172.20.0.1:36864: First packet not CONNECT (47).
+1772185165: Client 172.20.0.1 [172.20.0.1:36864] disconnected: protocol error.
+1772185175: New connection from 172.20.0.1:48932 on port 1883.
+1772185175: Protocol error from 172.20.0.1:48932: First packet not CONNECT (47).
+1772185175: Client 172.20.0.1 [172.20.0.1:48932] disconnected: protocol error.
+1772185180: New connection from 172.20.0.1:42844 on port 1883.
+1772185180: Protocol error from 172.20.0.1:42844: First packet not CONNECT (47).
+1772185180: Client 172.20.0.1 [172.20.0.1:42844] disconnected: protocol error.
+1772185185: New connection from 172.20.0.1:42852 on port 1883.
+1772185185: Protocol error from 172.20.0.1:42852: First packet not CONNECT (47).
+1772185185: Client 172.20.0.1 [172.20.0.1:42852] disconnected: protocol error.
+1772185195: New connection from 172.20.0.1:41114 on port 1883.
+1772185195: Protocol error from 172.20.0.1:41114: First packet not CONNECT (47).
+1772185195: Client 172.20.0.1 [172.20.0.1:41114] disconnected: protocol error.
+1772185200: New connection from 172.20.0.1:36582 on port 1883.
+1772185200: Protocol error from 172.20.0.1:36582: First packet not CONNECT (47).
+1772185200: Client 172.20.0.1 [172.20.0.1:36582] disconnected: protocol error.
+1772185205: New connection from 172.20.0.1:36588 on port 1883.
+1772185205: Protocol error from 172.20.0.1:36588: First packet not CONNECT (47).
+1772185205: Client 172.20.0.1 [172.20.0.1:36588] disconnected: protocol error.
+1772185215: New connection from 172.20.0.1:51636 on port 1883.
+1772185215: Protocol error from 172.20.0.1:51636: First packet not CONNECT (47).
+1772185215: Client 172.20.0.1 [172.20.0.1:51636] disconnected: protocol error.
+1772185221: New connection from 172.20.0.1:55706 on port 1883.
+1772185221: Protocol error from 172.20.0.1:55706: First packet not CONNECT (47).
+1772185221: Client 172.20.0.1 [172.20.0.1:55706] disconnected: protocol error.
+1772185227: New connection from 172.20.0.1:54624 on port 1883.
+1772185227: Protocol error from 172.20.0.1:54624: First packet not CONNECT (47).
+1772185227: Client 172.20.0.1 [172.20.0.1:54624] disconnected: protocol error.
+1772185236: New connection from 172.20.0.1:54628 on port 1883.
+1772185236: Protocol error from 172.20.0.1:54628: First packet not CONNECT (47).
+1772185236: Client 172.20.0.1 [172.20.0.1:54628] disconnected: protocol error.
+1772185243: New connection from 172.20.0.1:59708 on port 1883.
+1772185243: Protocol error from 172.20.0.1:59708: First packet not CONNECT (47).
+1772185243: Client 172.20.0.1 [172.20.0.1:59708] disconnected: protocol error.
+1772185250: New connection from 172.20.0.1:59384 on port 1883.
+1772185250: Protocol error from 172.20.0.1:59384: First packet not CONNECT (47).
+1772185250: Client 172.20.0.1 [172.20.0.1:59384] disconnected: protocol error.
+1772185256: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772185259: New connection from 172.20.0.1:51148 on port 1883.
+1772185259: Protocol error from 172.20.0.1:51148: First packet not CONNECT (47).
+1772185259: Client 172.20.0.1 [172.20.0.1:51148] disconnected: protocol error.
+1772185266: New connection from 172.20.0.1:56310 on port 1883.
+1772185266: Protocol error from 172.20.0.1:56310: First packet not CONNECT (47).
+1772185266: Client 172.20.0.1 [172.20.0.1:56310] disconnected: protocol error.
+1772185274: New connection from 172.20.0.1:56316 on port 1883.
+1772185274: Protocol error from 172.20.0.1:56316: First packet not CONNECT (47).
+1772185274: Client 172.20.0.1 [172.20.0.1:56316] disconnected: protocol error.
+1772185282: New connection from 172.20.0.1:41556 on port 1883.
+1772185282: Protocol error from 172.20.0.1:41556: First packet not CONNECT (47).
+1772185282: Client 172.20.0.1 [172.20.0.1:41556] disconnected: protocol error.
+1772185290: New connection from 172.20.0.1:42894 on port 1883.
+1772185290: Protocol error from 172.20.0.1:42894: First packet not CONNECT (47).
+1772185290: Client 172.20.0.1 [172.20.0.1:42894] disconnected: protocol error.
+1772185295: New connection from 172.20.0.1:42908 on port 1883.
+1772185295: Protocol error from 172.20.0.1:42908: First packet not CONNECT (47).
+1772185295: Client 172.20.0.1 [172.20.0.1:42908] disconnected: protocol error.
+1772185300: New connection from 172.20.0.1:49386 on port 1883.
+1772185300: Protocol error from 172.20.0.1:49386: First packet not CONNECT (47).
+1772185300: Client 172.20.0.1 [172.20.0.1:49386] disconnected: protocol error.
+1772185305: New connection from 172.20.0.1:49388 on port 1883.
+1772185305: Protocol error from 172.20.0.1:49388: First packet not CONNECT (47).
+1772185305: Client 172.20.0.1 [172.20.0.1:49388] disconnected: protocol error.
+1772185310: New connection from 172.20.0.1:54804 on port 1883.
+1772185310: Protocol error from 172.20.0.1:54804: First packet not CONNECT (47).
+1772185310: Client 172.20.0.1 [172.20.0.1:54804] disconnected: protocol error.
+1772185320: New connection from 172.20.0.1:43138 on port 1883.
+1772185320: Protocol error from 172.20.0.1:43138: First packet not CONNECT (47).
+1772185320: Client 172.20.0.1 [172.20.0.1:43138] disconnected: protocol error.
+1772185347: New connection from 172.20.0.1:34676 on port 8083.
+1772185347: New client connected from 172.20.0.1:34676 as flutter_client_1 (p3, c1, k20).
+1772185542: New connection from 172.20.0.1:48292 on port 1883.
+1772185542: New connection from 172.20.0.1:48294 on port 1883.
+1772185542: New client connected from 172.20.0.1:48292 as sim_device_1 (p4, c1, k60).
+1772185542: New client connected from 172.20.0.1:48294 as sim_device_2 (p4, c1, k60).
+1772185644: mosquitto version 2.1.2 terminating
+1772185644: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1772186180: mosquitto version 2.1.2 starting
+1772186180: Config loaded from /mosquitto/config/mosquitto.conf.
+1772186180: Bridge support available.
+1772186180: Persistence support available.
+1772186180: TLS support available.
+1772186180: TLS-PSK support available.
+1772186180: Websockets support available.
+1772186180: Opening ipv4 listen socket on port 1883.
+1772186180: Opening ipv6 listen socket on port 1883.
+1772186180: Opening ipv4 listen socket on port 8083.
+1772186180: Opening ipv6 listen socket on port 8083.
+1772186180: mosquitto version 2.1.2 running
+1772186180: New connection from 172.20.0.1:58618 on port 1883.
+1772186180: New client connected from 172.20.0.1:58618 as flutter_client_1 (p3, c1, k20).
+1772186199: Client flutter_client_1 [172.20.0.1:58618] disconnected: connection closed by client.
