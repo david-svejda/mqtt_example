@@ -5,6 +5,11 @@ import threading
 import paho.mqtt.client as mqtt
 from paho.mqtt.enums import CallbackAPIVersion, MQTTErrorCode
 
+import uuid
+from typing import List
+from sensor import Sensor
+from sensor_factory import SensorFactory
+
 """DEVICE configuration"""
 PUBLISH_INTERVAL = 2        # interval in seconds for reading sensors and publishing value
 SUBSCRIBE_INTERVAL = 2      # interval in seconds for reading from the queue
@@ -13,12 +18,27 @@ RECONNECT_INTERVAL = 5      # interval for reconnecting to a queue in case of fa
 class Device:
     def __init__(self, name: str, broker_host: str, broker_port: int, broker_base_topic: str, broker_connection_retries: int) -> None:
         self.name = name
+        self.id = str(uuid.uuid4())
+
         self.broker_host = broker_host
         self.broker_port = broker_port
         self.broker_base_topic = broker_base_topic
         self.broker_connection_retries = broker_connection_retries
 
         self.connected_event = threading.Event()
+
+        # Generate sensors of a device
+        self.sensors: List[Sensor] = []
+        # Add temperature sensor
+        if random.choice([True, False]):
+            sensor = SensorFactory.create("temperature", str(uuid.uuid4()), "Room Temperature")
+            self.sensors.append(sensor)
+            pass
+        # Add smoke sensor
+        if random.choice([True, False]):
+            sensor = SensorFactory.create("smoke", str(uuid.uuid4()), "Hallway")
+            self.sensors.append(sensor)
+            pass
 
     def on_connect(self, client, userdata, connect_flags, reason_code, properties):
         if reason_code == 0:
@@ -62,22 +82,11 @@ class Device:
 
         while True:
             if self.connected_event.is_set():
-                value_change = random.randint(0, 1)
-                value_change = round(random.uniform(-0.5, 0.5), 2) if value_change > 0 else 0
-                if (value + value_change) > 35.0 or (value + value_change) < 18.0:
-                    value_change = 0
-                else:
-                    value += value_change
+                for sensor in self.sensors:
+                    payload = {"device_name": self.name, "device_id": self.id, }
+                    payload.update(sensor.payload())
 
-                payload = {
-                    "device_id": self.name,
-                    "timestamp": int(time.time()),
-                    "sensor": "temperature",
-                    "data": round(value, 2),
-                    "status": "STABLE" if value_change == 0 else "CHANGE"
-                }
-
-                client.publish(topic, json.dumps(payload), qos=1)
-                print(f"📤 {self.name} -> {topic}: {payload}")
+                    client.publish(topic, json.dumps(payload), qos=1)
+                    print(f"📤 {self.name} -> {topic}: {payload}")
 
             time.sleep(PUBLISH_INTERVAL)
