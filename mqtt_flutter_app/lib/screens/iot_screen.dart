@@ -33,22 +33,19 @@ class _IoTScreenState extends State<IoTScreen> {
 
   void _onMessage(Map<String, dynamic> message) {
     String deviceId = message['device_id'];
-    String sensor = message['sensor'];
-    double value = message['data'];
+    String deviceName = message['device_name'];
 
     // Add device if it does not exist
-    bool found = true;
-    Device device = devices.firstWhere(
-      (item) => item.name == deviceId,
-      orElse: () {
-        found = false;
-        return Device(deviceId);
-      },
-    );
+    int index = devices.indexWhere((item) => item.id == deviceId);
+    if (index != -1) {
+      print("Device $deviceName found.");
 
-    device.updateSensorValue(sensor, value);
+      devices[index].updateSensorValue(message);
+    } else {
+      print("Device $deviceName not found.");
 
-    if (!found) {
+      Device device = Device(deviceId, deviceName);
+      device.updateSensorValue(message);
       devices.add(device);
     }
 
@@ -107,7 +104,24 @@ class _IoTScreenState extends State<IoTScreen> {
               child: ListView.builder(
                 itemCount: devices.length,
                 itemBuilder: (context, item) {
-                  return Text('${devices[item].name}: ${devices[item].sensors[0].name} - ${devices[item].sensors[0].value}');
+                  return Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(devices[item].name),
+                      Padding(
+                        padding: EdgeInsetsGeometry.only(left: 16),
+                        child: ListView.builder(
+                          shrinkWrap: true,
+                          physics: const NeverScrollableScrollPhysics(),
+                          itemCount: devices[item].sensors.length,
+                          itemBuilder: (BuildContext context, int index) {
+                            return devices[item].sensors[index].buildWidget(context);
+                            //return Text('sensor ${devices[item].sensors[index].name}');
+                          },
+                        ),
+                      ),
+                    ],
+                  );
                 },
               ),
             ),
