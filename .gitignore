@@ -4,6 +4,7 @@
 *.iws
 .idea/
 /mqtt_esp32_simulator/*.iml
+/mqtt_broker_docker/*.iml
 
 /mqtt_broker_docker/mosquitto/data/mosquitto.db
 /mqtt_broker_docker/mosquitto/log/mosquitto.log
