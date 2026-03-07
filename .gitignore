@@ -8,3 +8,5 @@
 
 /mqtt_broker_docker/mosquitto/data/mosquitto.db
 /mqtt_broker_docker/mosquitto/log/mosquitto.log
+/rtsp_server_docker/videos/*.mp4
+/rtsp_server_docker/hls/*

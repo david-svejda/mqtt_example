@@ -1,0 +1,33 @@
+version: "3.8"
+
+services:
+  mediamtx:
+    image: bluenviron/mediamtx:latest
+    container_name: mediamtx
+    restart: unless-stopped
+    ports:
+      - "8554:8554"
+      - "8888:8888"
+      - "8889:8889"
+      - "8189:8189/udp"
+    volumes:
+      - ./mediamtx.yml:/mediamtx.yml
+
+  ffmpeg:
+    image: linuxserver/ffmpeg
+    container_name: ffmpeg
+    depends_on:
+      - mediamtx
+    volumes:
+      - ./videos:/videos:ro
+    entrypoint: >
+      sh -c "
+      echo 'Waiting for MediaMTX...' ;
+      until nc -z mediamtx 8554; do
+        sleep 2;
+      done;
+      echo 'MediaMTX is up, starting stream';
+      ffmpeg -re -stream_loop -1 -i /videos/test.mp4 -c:v libx264 -bf 0 -f rtsp rtsp://mediamtx:8554/stream
+      "
+
+#ffmpeg -re -stream_loop -1 -i /videos/test.mp4 -c:v libx264 -preset veryfast -tune zerolatency -g 25 -keyint_min 25 -sc_threshold 0 -c:a aac -f rtsp rtsp://mediamtx:8554/stream

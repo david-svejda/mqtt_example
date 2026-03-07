@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart' show kIsWeb;
+import 'package:video_player/video_player.dart';
 
 import '../devices/device.dart';
 import '../services/mqtt_service.dart';
@@ -17,6 +19,7 @@ class IoTScreen extends StatefulWidget {
 
 class _IoTScreenState extends State<IoTScreen> {
   late MqttService mqttService;
+  late VideoPlayerController _controller;
 
   List<Device> devices = [];
 
@@ -29,6 +32,34 @@ class _IoTScreenState extends State<IoTScreen> {
       subscribedTopic: 'iot/devices/#',
       onMessage: _onMessage,
     );
+
+    String url = "http://localhost:8888/stream/index.m3u8";
+    print("Running RTSP stream on $url");
+    _controller = VideoPlayerController.networkUrl(Uri.parse(url));
+
+    _controller.addListener(() {
+      setState(() {});
+    });
+
+    _controller.initialize().then((_) {
+      print("Video controller is initialized");
+
+      _controller.setVolume(kIsWeb ? 0.0 : 1.0);
+
+      // small delay ensures first frame renders
+      Future.delayed(const Duration(milliseconds: 100), () {
+        _controller.play();
+        setState(() {
+          print("START PLAYING");
+        });
+      });
+    });
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
   }
 
   void _onMessage(Map<String, dynamic> message) {
@@ -115,7 +146,9 @@ class _IoTScreenState extends State<IoTScreen> {
                           physics: const NeverScrollableScrollPhysics(),
                           itemCount: devices[item].sensors.length,
                           itemBuilder: (BuildContext context, int index) {
-                            return devices[item].sensors[index].buildWidget(context);
+                            return devices[item].sensors[index].buildWidget(
+                              context,
+                            );
                             //return Text('sensor ${devices[item].sensors[index].name}');
                           },
                         ),
@@ -123,6 +156,25 @@ class _IoTScreenState extends State<IoTScreen> {
                     ],
                   );
                 },
+              ),
+            ),
+            SizedBox(height: 16.0),
+            Center(
+              child: SizedBox(
+                width: MediaQuery.of(context).size.width,
+                height: MediaQuery.of(context).size.width * 9.0 / 16.0,
+                // Use [Video] widget to display video output.
+                child: VideoPlayer(_controller),
+                /*
+                child: _controller.value.isInitialized
+                    ? AspectRatio(
+                        aspectRatio: _controller.value.aspectRatio,
+                        child: VideoPlayer(_controller),
+                      )
+                    : Text(
+                        '${_controller.value.isInitialized}',
+                      ),
+                 */
               ),
             ),
           ],
