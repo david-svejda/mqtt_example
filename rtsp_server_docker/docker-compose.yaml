@@ -8,7 +8,6 @@ services:
     ports:
       - "8554:8554"
       - "8888:8888"
-      - "8889:8889"
       - "8189:8189/udp"
     volumes:
       - ./mediamtx.yml:/mediamtx.yml
@@ -27,7 +26,5 @@ services:
         sleep 2;
       done;
       echo 'MediaMTX is up, starting stream';
-      ffmpeg -re -stream_loop -1 -i /videos/test.mp4 -c:v libx264 -bf 0 -f rtsp rtsp://mediamtx:8554/stream
+      ffmpeg -re -stream_loop -1 -i /videos/test.mp4 -c:v libx264 -pix_fmt yuv420p -preset veryfast -g 60 -keyint_min 60 -sc_threshold 0 -g 60 -keyint_min 60 -sc_threshold 0 -bf 0 -f rtsp rtsp://mediamtx:8554/stream
       "
-
-#ffmpeg -re -stream_loop -1 -i /videos/test.mp4 -c:v libx264 -preset veryfast -tune zerolatency -g 25 -keyint_min 25 -sc_threshold 0 -c:a aac -f rtsp rtsp://mediamtx:8554/stream

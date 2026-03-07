@@ -5,10 +5,10 @@ rtspAddress: :8554
 hls: true
 hlsAddress: :8888
 hlsAllowOrigins: ['*']
-
-webrtc: true
-webrtcAddress: :8889
-webrtcAllowOrigins: ['*']
+hlsAlwaysRemux: true
+hlsVariant: mpegts
+hlsSegmentCount: 7
+hlsSegmentDuration: 2s
 
 paths:
   stream:

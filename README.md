@@ -14,3 +14,10 @@ Projekt obsahuje 3 moduly:
 </br> Instalace popsaná na https://www.python.org/downloads/
 3. **Flutter**
 </br>Instalace popsaná na https://flutter.dev/
+
+# Running
+1. Nastartuj MQTT broker v **mqtt_broker_docker** projektu
+2. Nastartuj ESP32 simulator senzorů v **mqtt_esp32_simulator** projektu
+3. Přidej testovací video do rtsp_server_docker/videos/test.mp4
+4. Nastartuj RTSP server v **rtsp_server_docker** projektu
+5. Nastartuj aplikaci v **mqtt_flutter_app** projektu

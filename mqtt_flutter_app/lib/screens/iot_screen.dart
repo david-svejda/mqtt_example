@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:video_player/video_player.dart';
+import 'package:chewie/chewie.dart';
 
 import '../devices/device.dart';
 import '../services/mqtt_service.dart';
@@ -19,9 +20,28 @@ class IoTScreen extends StatefulWidget {
 
 class _IoTScreenState extends State<IoTScreen> {
   late MqttService mqttService;
-  late VideoPlayerController _controller;
+  VideoPlayerController? _videoController;
+  ChewieController? _chewieController;
+
+  bool _loading = true;
+  String? _error;
 
   List<Device> devices = [];
+
+  String get streamUrl {
+    if (kIsWeb) {
+      return 'http://localhost:8888/stream/index.m3u8';
+    }
+
+    // Android emulator:
+    // return 'http://10.0.2.2:8888/stream/index.m3u8';
+
+    // iOS simulator:
+    // return 'http://localhost:8888/stream/index.m3u8';
+
+    // Physical device on same Wi-Fi:
+    return 'http://localhost:8888/stream/index.m3u8';
+  }
 
   @override
   void initState() {
@@ -33,32 +53,56 @@ class _IoTScreenState extends State<IoTScreen> {
       onMessage: _onMessage,
     );
 
-    String url = "http://localhost:8888/stream/index.m3u8";
-    print("Running RTSP stream on $url");
-    _controller = VideoPlayerController.networkUrl(Uri.parse(url));
+    _initPlayer();
+  }
 
-    _controller.addListener(() {
-      setState(() {});
-    });
+  Future<void> _initPlayer() async {
+    try {
+      print("URL: $streamUrl");
 
-    _controller.initialize().then((_) {
-      print("Video controller is initialized");
+      final controller = VideoPlayerController.networkUrl(
+        Uri.parse(streamUrl),
+        videoPlayerOptions: VideoPlayerOptions(mixWithOthers: true),
+      );
 
-      _controller.setVolume(kIsWeb ? 0.0 : 1.0);
+      await controller.initialize();
+      await controller.setVolume(0);
 
-      // small delay ensures first frame renders
-      Future.delayed(const Duration(milliseconds: 100), () {
-        _controller.play();
-        setState(() {
-          print("START PLAYING");
-        });
+      final chewie = ChewieController(
+        videoPlayerController: controller,
+
+        autoPlay: true,
+        looping: true,
+        showControlsOnInitialize: false,
+
+        allowFullScreen: true,
+        allowMuting: true,
+        materialProgressColors: ChewieProgressColors(
+          playedColor: Colors.red,
+          handleColor: Colors.redAccent,
+          bufferedColor: Colors.grey,
+          backgroundColor: Colors.black26,
+        ),
+      );
+
+      setState(() {
+        _videoController = controller;
+        _chewieController = chewie;
+        _loading = false;
       });
-    });
+    } catch (e) {
+      setState(() {
+        _error = 'Failed to load stream: $e';
+        _loading = false;
+      });
+    }
   }
 
   @override
   void dispose() {
-    _controller.dispose();
+    _chewieController?.dispose();
+    _videoController?.dispose();
+
     super.dispose();
   }
 
@@ -164,17 +208,30 @@ class _IoTScreenState extends State<IoTScreen> {
                 width: MediaQuery.of(context).size.width,
                 height: MediaQuery.of(context).size.width * 9.0 / 16.0,
                 // Use [Video] widget to display video output.
-                child: VideoPlayer(_controller),
-                /*
-                child: _controller.value.isInitialized
-                    ? AspectRatio(
-                        aspectRatio: _controller.value.aspectRatio,
-                        child: VideoPlayer(_controller),
-                      )
-                    : Text(
-                        '${_controller.value.isInitialized}',
+                child: Center(
+                  child: ConstrainedBox(
+                    constraints: const BoxConstraints(maxWidth: 900),
+                    child: AspectRatio(
+                      aspectRatio: 16 / 9,
+                      child: Card(
+                        clipBehavior: Clip.antiAlias,
+                        child: _loading
+                            ? const Center(child: CircularProgressIndicator())
+                            : _error != null
+                            ? Center(
+                                child: Padding(
+                                  padding: const EdgeInsets.all(16),
+                                  child: Text(
+                                    _error!,
+                                    textAlign: TextAlign.center,
+                                  ),
+                                ),
+                              )
+                            : Chewie(controller: _chewieController!),
                       ),
-                 */
+                    ),
+                  ),
+                ),
               ),
             ),
           ],
